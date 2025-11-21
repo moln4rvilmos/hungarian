@@ -1,52 +1,54 @@
 <?php
 //
-// _LANGCODE: en
+// _LANGCODE: hu
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+// Translator: XOOPS Hungarian Translation Team
 
 $content = '
 <p>
-    <abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> is an open-source
-    Object-Oriented Web publishing system written in PHP. It is an ideal tool for
-    developing small to large dynamic community websites, intra company portals, corporate portals, weblogs and much more.
+    <abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> egy nyílt forráskódú,
+    objektumorientált webes közzétételi rendszer, mely PHP nyelven íródott. Ideális eszköz
+    kis és nagy dinamikus közösségi webhelyek, vállalati intranetes portálok, céges portálok, webnaplók (weblogok)
+    és sok egyéb fejlesztésére.
 </p>
 <p>
-    XOOPS is released under the terms of the
-    <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU General Public License (GPL)</a>
-    version 2 or greater, and is free to use and modify.
-    It is free to redistribute as long as you abide by the distribution terms of the GPL.
+    A XOOPS a
+    <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU General Public License (GPL)</a>
+    2. vagy újabb verziójának feltételei szerint került kiadásra, és szabadon használható, illetve módosítható.
+    Szabadon terjeszthető, mindaddig, amíg betartja a GPL terjesztési feltételeit.
 </p>
-<h3>Requirements</h3>
+<h3>Követelmények</h3>
 <ul>
-    <li>WWW Server (<a href="https://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external">NGINX</a>, IIS, etc)</li>
-     <li><a href="https://www.php.net/" rel="external">PHP</a> 7.4 or higher, 8.3.0+ recommended</li>
-     <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.7 or higher, 8.4.5+ recommended </li>
+    <li>WWW Szerver (<a href="https://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external">NGINX</a>, IIS, stb.)</li>
+     <li><a href="https://www.php.net/" rel="external">PHP</a> 7.4 vagy újabb, 8.3.0+ ajánlott</li>
+     <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.7 vagy újabb, 8.4.5+ ajánlott </li>
 </ul>
-<h3>Before you install</h3>
+<h3>Telepítés előtt</h3>
 <ol>
-    <li>Setup WWW server, PHP and database server properly.</li>
-    <li>Prepare a database for your XOOPS site.</li>
-    <li>Prepare user account and grant the user the access to the database.</li>
-    <li>Make these directories and files writable: %s</li>
-    <li>For security considerations, you are strongly advised to move the two directories below out of <a href="https://privacyaustralia.net/phpsec/projects/guide/php-security-guide-databases-and-sql/" rel="external">document root</a> and change the folder names: %s</li>
-    <li>Create (if not already present) and make these directories writable: %s</li>
-    <li>Turn cookie and JavaScript of your browser on.</li>
+    <li>Állítsa be megfelelően a WWW szervert, a PHP-t és az adatbázis-szervert.</li>
+    <li>Készítsen elő egy adatbázist a XOOPS webhely számára.</li>
+    <li>Készítsen elő egy felhasználói fiókot, és adjon a felhasználónak hozzáférést az adatbázishoz.</li>
+    <li>Tegye írhatóvá ezeket a könyvtárakat és fájlokat: %s</li>
+    <li>Biztonsági okokból nyomatékosan javasolt az alábbi két könyvtárat áthelyezni a <a href="https://privacyaustralia.net/phpsec/projects/guide/php-security-guide-databases-and-sql/" rel="external">dokumentum gyökérkönyvtáron (document root)</a> kívülre, és a mappaneveket megváltoztatni: %s</li>
+    <li>Hozza létre (ha még nem léteznek) és tegye írhatóvá ezeket a könyvtárakat: %s</li>
+    <li>Kapcsolja be a böngészőjében a cookie-kat és a JavaScriptet.</li>
 </ol>
-<h3>Special Notes</h3>
-<p>Some specific system software combinations may require some additional configurations to work
- with XOOPS. If any of these topics apply to your environment, please see the full
- <a href="https://xoops.gitbook.io/xoops-install-upgrade/" rel="external">XOOPS
- installation manual</a> for more information.
+<h3>Különleges Megjegyzések</h3>
+<p>Bizonyos speciális rendszer-szoftver kombinációk további konfigurációt igényelhetnek ahhoz, hogy
+ együttműködjenek a XOOPS-szal. Ha bármelyik téma vonatkozik az Ön környezetére, további információkért
+ tekintse meg a teljes <a href="https://xoops.gitbook.io/xoops-install-upgrade/" rel="external">XOOPS
+ telepítési útmutatót</a>.
 </p>
-<p>MySQL 8.0 is not supported in all PHP versions. Even in the supported versions, issues with the
- PHP <em>mysqlnd</em> library may require the MySQL server&apos;s <em>default-authentication-plugin</em>
- to be set to <em>mysql_native_password</em> to function correctly.
+<p>A MySQL 8.0-t nem támogatja minden PHP verzió. Még a támogatott verziókban is előfordulhat, hogy a
+ PHP <em>mysqlnd</em> könyvtárával kapcsolatos problémák miatt a MySQL szerver
+ <em>default-authentication-plugin</em> beállítását <em>mysql_native_password</em> értékre kell állítani a
+ megfelelő működéshez.
 </p>
-<p>SELinux enabled systems (such as CentOS and RHEL) may require changes to the security context
- for XOOPS directories in addition to the normal file permissions to make directories writable.
- Consult your system documentation and/or systems administrator.
+<p>Az SELinux-engedélyezett rendszereken (például CentOS és RHEL) szükség lehet a XOOPS könyvtárak
+ biztonsági kontextusának megváltoztatására a normál fájl jogosultságokon túlmenően is, hogy a
+ könyvtárak írhatóvá váljanak. Kérjük, konzultáljon rendszere dokumentációjával és/vagy a
+ rendszergazdájával.
 </p>
 ';
 
 return $content;
-
