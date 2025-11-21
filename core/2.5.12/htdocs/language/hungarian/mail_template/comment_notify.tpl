@@ -1,18 +1,18 @@
 Hello {X_UNAME},
 
-A comment has been added to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+Egy megjegyzés (komment) lett hozzáadva a(z) "{X_ITEM_NAME}" nevű {X_ITEM_TYPE}-hoz/höz, amit figyelsz a(z) {X_MODULE} modulunkban.
 
-You can view the comment here:
+A megjegyzést itt tekintheted meg:
 {X_COMMENT_URL}
 
 -----------
 
-You are receiving this message because you selected to be notified when comments are added to this {X_ITEM_TYPE}.
+Ezt az üzenetet azért kapod, mert beállítottad, hogy értesítést kérsz, amikor megjegyzéseket adnak ehhez a(z) {X_ITEM_TYPE}-hoz/höz.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Ha ez hiba, vagy nem szeretnél a továbbiakban ilyen értesítéseket kapni, kérlek, frissítsd a feliratkozásaidat az alábbi hivatkozás meglátogatásával:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Kérlek, ne válaszolj erre az üzenetre.
 
 -----------
 {X_SITENAME} ({X_SITEURL}) 
