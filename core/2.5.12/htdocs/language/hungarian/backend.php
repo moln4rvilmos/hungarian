@@ -1,8 +1,8 @@
 <?php
 //
-// _LANGCODE: en
+// _LANGCODE: hu
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+// Translator: XOOPS Magyar Fordító Csapat
 
-// RSS feed URLs
+// RSS feed URL-ek
 return ['https://xoops.org/modules/publisher/backend.php'];
