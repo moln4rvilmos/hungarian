@@ -1,73 +1,73 @@
 <?php
-// 
-// _LANGCODE: en
+//
+// _LANGCODE: hu
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+// Translator: XOOPS Magyar Fordító Csapat
 // RMV-NOTIFY
 // Text for various templates...
-define('_NOT_NOTIFICATIONOPTIONS', 'Notification Options');
-define('_NOT_UPDATENOW', 'Update Now');
-define('_NOT_UPDATEOPTIONS', 'Update Notification Options');
-define('_NOT_CLEAR', 'Clear');
-define('_NOT_CHECKALL', 'Check All');
-define('_NOT_MODULE', 'Module');
-define('_NOT_CATEGORY', 'Category');
+define('_NOT_NOTIFICATIONOPTIONS', 'Értesítési Opciók');
+define('_NOT_UPDATENOW', 'Frissítés Most');
+define('_NOT_UPDATEOPTIONS', 'Értesítési Opciók Frissítése');
+define('_NOT_CLEAR', 'Törlés');
+define('_NOT_CHECKALL', 'Mindet Jelöld Be');
+define('_NOT_MODULE', 'Modul');
+define('_NOT_CATEGORY', 'Kategória');
 define('_NOT_ITEMID', 'ID');
-define('_NOT_ITEMNAME', 'Name');
-define('_NOT_EVENT', 'Event');
-define('_NOT_EVENTS', 'Events');
-define('_NOT_ACTIVENOTIFICATIONS', 'Active Notifications');
-define('_NOT_NAMENOTAVAILABLE', 'Name Not Available');
+define('_NOT_ITEMNAME', 'Név');
+define('_NOT_EVENT', 'Esemény');
+define('_NOT_EVENTS', 'Események');
+define('_NOT_ACTIVENOTIFICATIONS', 'Aktív Értesítések');
+define('_NOT_NAMENOTAVAILABLE', 'Név Nem Elérhető');
 // RMV-NEW : TODO: remove NAMENOTAVAILBLE above
-define('_NOT_ITEMNAMENOTAVAILABLE', 'Item Name Not Available');
-define('_NOT_ITEMTYPENOTAVAILABLE', 'Item Type Not Available');
-define('_NOT_ITEMURLNOTAVAILABLE', 'Item URL Not Available');
-define('_NOT_DELETINGNOTIFICATIONS', 'Deleting Notifications');
-define('_NOT_DELETESUCCESS', 'Notification(s) deleted successfully.');
-define('_NOT_UPDATEOK', 'Notification options updated');
-define('_NOT_NOTIFICATIONMETHODIS', 'Notification method is');
-define('_NOT_EMAIL', 'email');
-define('_NOT_PM', 'private message');
-define('_NOT_DISABLE', 'disabled');
-define('_NOT_CHANGE', 'Change');
-define('_NOT_NOACCESS', 'You do not have permission to access this page.');
+define('_NOT_ITEMNAMENOTAVAILABLE', 'Elem Neve Nem Elérhető');
+define('_NOT_ITEMTYPENOTAVAILABLE', 'Elem Típusa Nem Elérhető');
+define('_NOT_ITEMURLNOTAVAILABLE', 'Elem URL-je Nem Elérhető');
+define('_NOT_DELETINGNOTIFICATIONS', 'Értesítések Törlése');
+define('_NOT_DELETESUCCESS', 'Értesítés(ek) sikeresen törölve.');
+define('_NOT_UPDATEOK', 'Értesítési opciók frissítve');
+define('_NOT_NOTIFICATIONMETHODIS', 'Az értesítési módszer');
+define('_NOT_EMAIL', 'e-mail');
+define('_NOT_PM', 'privát üzenet');
+define('_NOT_DISABLE', 'letiltva');
+define('_NOT_CHANGE', 'Módosítás');
+define('_NOT_NOACCESS', 'Nincs engedélyed ehhez az oldalhoz hozzáférni.');
 // Text for module config options
-define('_NOT_ENABLE', 'Enable');
-define('_NOT_NOTIFICATION', 'Notification');
-define('_NOT_CONFIG_ENABLED', 'Enable Notification');
-define('_NOT_CONFIG_ENABLEDDSC', 'This module allows users to select to be notified when certain events occur.  Choose "yes" to enable this feature.');
-define('_NOT_CONFIG_EVENTS', 'Enable Specific Events');
-define('_NOT_CONFIG_EVENTSDSC', 'Select which notification events to which your users may subscribe.');
-define('_NOT_CONFIG_ENABLE', 'Enable Notification');
-define('_NOT_CONFIG_ENABLEDSC', 'This module allows users to be notified when certain events occur.  Select if users should be presented with notification options in a Block (Block-style), within the module (Inline-style), or both.  For block-style notification, the Notification Options block must be enabled for this module.');
-define('_NOT_CONFIG_DISABLE', 'Disable Notification');
-define('_NOT_CONFIG_ENABLEBLOCK', 'Enable only Block-style');
-define('_NOT_CONFIG_ENABLEINLINE', 'Enable only Inline-style');
-define('_NOT_CONFIG_ENABLEBOTH', 'Enable Notification (both styles)');
+define('_NOT_ENABLE', 'Engedélyezés');
+define('_NOT_NOTIFICATION', 'Értesítés');
+define('_NOT_CONFIG_ENABLED', 'Értesítés Engedélyezése');
+define('_NOT_CONFIG_ENABLEDDSC', 'Ez a modul lehetővé teszi a felhasználóknak, hogy kérjék az értesítést bizonyos események bekövetkezésekor. Válaszd az "igen" opciót a funkció engedélyezéséhez.');
+define('_NOT_CONFIG_EVENTS', 'Konkrét Események Engedélyezése');
+define('_NOT_CONFIG_EVENTSDSC', 'Válaszd ki, mely értesítési eseményekre iratkozhatnak fel a felhasználóid.');
+define('_NOT_CONFIG_ENABLE', 'Értesítés Engedélyezése');
+define('_NOT_CONFIG_ENABLEDSC', 'Ez a modul lehetővé teszi a felhasználóknak, hogy értesítést kapjanak bizonyos eseményekről. Válaszd ki, hogy a felhasználók számára blokkban (Blokk stílus), a modulon belül (Inline stílus), vagy mindkét helyen jelenjenek meg az értesítési opciók. A blokk stílusú értesítéshez az Értesítési Opciók blokkot engedélyezni kell ehhez a modulhoz.');
+define('_NOT_CONFIG_DISABLE', 'Értesítés Letiltása');
+define('_NOT_CONFIG_ENABLEBLOCK', 'Csak Blokk stílus engedélyezése');
+define('_NOT_CONFIG_ENABLEINLINE', 'Csak Inline stílus engedélyezése');
+define('_NOT_CONFIG_ENABLEBOTH', 'Értesítés engedélyezése (mindkét stílus)');
 // For notification about comment events
-define('_NOT_COMMENT_NOTIFY', 'Comment Added');
-define('_NOT_COMMENT_NOTIFYCAP', 'Notify me when a new comment is posted for this item.');
-define('_NOT_COMMENT_NOTIFYDSC', 'Receive notification whenever a new comment is posted (or approved) for this item.');
-define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Comment added to {X_ITEM_TYPE}');
-define('_NOT_COMMENTSUBMIT_NOTIFY', 'Comment Submitted');
-define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'Notify me when a new comment is submitted (awaiting approval) for this item.');
-define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'Receive notification whenever a new comment is submitted (awaiting approval) for this item.');
-define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Comment submitted for {X_ITEM_TYPE}');
+define('_NOT_COMMENT_NOTIFY', 'Megjegyzés Hozzáadva');
+define('_NOT_COMMENT_NOTIFYCAP', 'Értesíts, ha új megjegyzést tesznek közzé ehhez az elemhez.');
+define('_NOT_COMMENT_NOTIFYDSC', 'Értesítést kapsz, amikor új megjegyzést tesznek közzé (vagy jóváhagynak) ehhez az elemhez.');
+define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} automatikus értesítés: Megjegyzés hozzáadva ehhez: {X_ITEM_TYPE}');
+define('_NOT_COMMENTSUBMIT_NOTIFY', 'Megjegyzés Beküldve');
+define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'Értesíts, ha új megjegyzést küldtek be (jóváhagyásra vár) ehhez az elemhez.');
+define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'Értesítést kapsz, amikor új megjegyzést küldenek be (jóváhagyásra vár) ehhez az elemhez.');
+define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} automatikus értesítés: Megjegyzés beküldve ehhez: {X_ITEM_TYPE}');
 // For notification bookmark feature
 // (Not really notification, but easy to do with this module)
-define('_NOT_BOOKMARK_NOTIFY', 'Bookmark');
-define('_NOT_BOOKMARK_NOTIFYCAP', 'Bookmark this item (no notification).');
-define('_NOT_BOOKMARK_NOTIFYDSC', 'Keep track of this item without receiving any event notifications.');
+define('_NOT_BOOKMARK_NOTIFY', 'Könyvjelző');
+define('_NOT_BOOKMARK_NOTIFYCAP', 'Könyvjelzőzd ezt az elemet (nincs értesítés).');
+define('_NOT_BOOKMARK_NOTIFYDSC', 'Kövesd nyomon ezt az elemet anélkül, hogy bármilyen eseményről értesítést kapnál.');
 // For user profile
 // FIXME: These should be reworded a little...
-define('_NOT_NOTIFYMETHOD', 'Notification Method<br> When you monitor e.g. a forum, how would you like to receive notifications of updates?');
-define('_NOT_METHOD_EMAIL', 'Email (use address in my profile)');
-define('_NOT_METHOD_PM', 'Private Message');
-define('_NOT_METHOD_DISABLE', 'Temporarily Disable');
-define('_NOT_NOTIFYMODE', 'Default Notification Mode');
-define('_NOT_MODE_SENDALWAYS', 'Notify me of all selected updates');
-define('_NOT_MODE_SENDONCE', 'Notify me only once');
-define('_NOT_MODE_SENDONCEPERLOGIN', 'Notify me once then disable until I log in again');
-define('_NOT_NOTHINGTODELETE', 'There is nothing to delete.');
+define('_NOT_NOTIFYMETHOD', 'Értesítési Módszer<br> Ha például egy fórumot figyelsz, hogyan szeretnél értesítést kapni a frissítésekről?');
+define('_NOT_METHOD_EMAIL', 'E-mail (a profilomban lévő címet használva)');
+define('_NOT_METHOD_PM', 'Privát Üzenet');
+define('_NOT_METHOD_DISABLE', 'Ideiglenes Letiltás');
+define('_NOT_NOTIFYMODE', 'Alapértelmezett Értesítési Mód');
+define('_NOT_MODE_SENDALWAYS', 'Értesíts az összes kiválasztott frissítésről');
+define('_NOT_MODE_SENDONCE', 'Csak egyszer értesíts');
+define('_NOT_MODE_SENDONCEPERLOGIN', 'Értesíts egyszer, majd tilts le, amíg újra be nem jelentkezem');
+define('_NOT_NOTHINGTODELETE', 'Nincs törlendő tétel.');
 //XOOPS 2.5.9
-define('_NOT_RUSUREDEL', 'Are you sure to delete this Notification?');
+define('_NOT_RUSUREDEL', 'Biztos vagy benne, hogy törlöd ezt az értesítést?');
