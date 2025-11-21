@@ -1,18 +1,18 @@
 Hello {X_UNAME},
 
-The event {X_NOTIFY_EVENT} has occurred to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+A(z) {X_NOTIFY_EVENT} esemény történt a(z) "{X_ITEM_NAME}" nevű {X_ITEM_TYPE}-hoz/höz, amit figyelsz a(z) {X_MODULE} modulunkban.
 
-You can view the {X_ITEM_TYPE} here:
+A(z) {X_ITEM_TYPE} itt tekinthető meg:
 {X_ITEM_URL}
 
 -----------
 
-You have subscribed to receive notifications of this sort.
+Feliratkoztál az ilyen jellegű értesítések fogadására.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Ha ez hiba, vagy nem szeretnél a továbbiakban ilyen értesítéseket kapni, kérlek, frissítsd a feliratkozásaidat az alábbi hivatkozás meglátogatásával:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Kérlek, ne válaszolj erre az üzenetre.
 
 -----------
 {X_SITENAME} ({X_SITEURL}) 
