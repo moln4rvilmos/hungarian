@@ -1,8 +1,8 @@
 Hello {X_UNAME},
 
-Your new profile at {SITENAME} has been activated by the administrator.
+A(z) {SITENAME} webhelyen lévő új profilodat a rendszergazda aktiválta.
 
-You can now login from the following URL with the password you have submitted at registration.
+Mostantól bejelentkezhetsz a következő URL-en a regisztrációkor megadott jelszavaddal:
 
 {SITEURL}user.php
 
