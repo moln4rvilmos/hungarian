@@ -1,75 +1,75 @@
 <?php
-// 
-// _LANGCODE: en
+//
+// _LANGCODE: hu
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
-// more examples: https://php.net/manual/en/function.date.php
+// Translator: XOOPS Magyar Fordító Csapat
+// további példák: https://php.net/manual/en/function.date.php
 //
 // Revision by TXMod Xoops - Added shot text: 30/06/2012
 //
-//%%%%%     Time Zone   %%%%
-//define('_CAL_FORMAT',"Y-m-d");
+//%%%%%     Időzóna     %%%%
+//define('_CAL_FORMAT',"Y-m-d"); // ÉÉÉÉ-HH-NN formátum, ami nem teljesen szokásos magyarországon, de a XOOPS a globális beállításokat használja
 define('_CAL_FORMAT', _SHORTDATESTRING);
 
-//%%%%%     JQuery Calendar Time Zone   %%%%
+//%%%%%     JQuery Naptár Időzóna     %%%%
 define('_CAL_JQUERY_FORMAT', 'yy/mm/dd');
-// Week Mini Text
-define('_CAL_MIN_SUNDAY', 'Su');
-define('_CAL_MIN_MONDAY', 'Mo');
-define('_CAL_MIN_TUESDAY', 'Tu');
-define('_CAL_MIN_WEDNESDAY', 'We');
-define('_CAL_MIN_THURSDAY', 'Th');
-define('_CAL_MIN_FRIDAY', 'Fr');
-define('_CAL_MIN_SATURDAY', 'Sa');
-// Week Short Text
-define('_CAL_SHORT_SUNDAY', 'Sun');
-define('_CAL_SHORT_MONDAY', 'Mon');
-define('_CAL_SHORT_TUESDAY', 'Tue');
-define('_CAL_SHORT_WEDNESDAY', 'Wed');
-define('_CAL_SHORT_THURSDAY', 'Thu');
-define('_CAL_SHORT_FRIDAY', 'Fri');
-define('_CAL_SHORT_SATURDAY', 'Sat');
-define('_CAL_SHORT_JANUARY', 'January');
-define('_CAL_SHORT_FEBRUARY', 'February');
-define('_CAL_SHORT_MARCH', 'March');
-define('_CAL_SHORT_APRIL', 'April');
-define('_CAL_SHORT_MAY', 'May');
-define('_CAL_SHORT_JUNE', 'June');
-define('_CAL_SHORT_JULY', 'July');
-define('_CAL_SHORT_AUGUST', 'August');
-define('_CAL_SHORT_SEPTEMBER', 'September');
-define('_CAL_SHORT_OCTOBER', 'October');
-define('_CAL_SHORT_NOVEMBER', 'November');
-define('_CAL_SHORT_DECEMBER', 'December');
-// Normal Text
-define('_CAL_SUNDAY', 'Sunday');
-define('_CAL_MONDAY', 'Monday');
-define('_CAL_TUESDAY', 'Tuesday');
-define('_CAL_WEDNESDAY', 'Wednesday');
-define('_CAL_THURSDAY', 'Thursday');
-define('_CAL_FRIDAY', 'Friday');
-define('_CAL_SATURDAY', 'Saturday');
-define('_CAL_JANUARY', 'January');
-define('_CAL_FEBRUARY', 'February');
-define('_CAL_MARCH', 'March');
-define('_CAL_APRIL', 'April');
-define('_CAL_MAY', 'May');
-define('_CAL_JUNE', 'June');
-define('_CAL_JULY', 'July');
-define('_CAL_AUGUST', 'August');
-define('_CAL_SEPTEMBER', 'September');
-define('_CAL_OCTOBER', 'October');
+// A hét rövid szövege
+define('_CAL_MIN_SUNDAY', 'Va');
+define('_CAL_MIN_MONDAY', 'Hé');
+define('_CAL_MIN_TUESDAY', 'Ke');
+define('_CAL_MIN_WEDNESDAY', 'Sz');
+define('_CAL_MIN_THURSDAY', 'Cs');
+define('_CAL_MIN_FRIDAY', 'Pé');
+define('_CAL_MIN_SATURDAY', 'Sz');
+// A hét rövidített szövege
+define('_CAL_SHORT_SUNDAY', 'V');
+define('_CAL_SHORT_MONDAY', 'H');
+define('_CAL_SHORT_TUESDAY', 'K');
+define('_CAL_SHORT_WEDNESDAY', 'Sz');
+define('_CAL_SHORT_THURSDAY', 'Cs');
+define('_CAL_SHORT_FRIDAY', 'P');
+define('_CAL_SHORT_SATURDAY', 'Sz');
+define('_CAL_SHORT_JANUARY', 'Jan');
+define('_CAL_SHORT_FEBRUARY', 'Feb');
+define('_CAL_SHORT_MARCH', 'Már');
+define('_CAL_SHORT_APRIL', 'Ápr');
+define('_CAL_SHORT_MAY', 'Máj');
+define('_CAL_SHORT_JUNE', 'Jún');
+define('_CAL_SHORT_JULY', 'Júl');
+define('_CAL_SHORT_AUGUST', 'Aug');
+define('_CAL_SHORT_SEPTEMBER', 'Szep');
+define('_CAL_SHORT_OCTOBER', 'Okt');
+define('_CAL_SHORT_NOVEMBER', 'Nov');
+define('_CAL_SHORT_DECEMBER', 'Dec');
+// Normál szöveg
+define('_CAL_SUNDAY', 'Vasárnap');
+define('_CAL_MONDAY', 'Hétfő');
+define('_CAL_TUESDAY', 'Kedd');
+define('_CAL_WEDNESDAY', 'Szerda');
+define('_CAL_THURSDAY', 'Csütörtök');
+define('_CAL_FRIDAY', 'Péntek');
+define('_CAL_SATURDAY', 'Szombat');
+define('_CAL_JANUARY', 'Január');
+define('_CAL_FEBRUARY', 'Február');
+define('_CAL_MARCH', 'Március');
+define('_CAL_APRIL', 'Április');
+define('_CAL_MAY', 'Május');
+define('_CAL_JUNE', 'Június');
+define('_CAL_JULY', 'Július');
+define('_CAL_AUGUST', 'Augusztus');
+define('_CAL_SEPTEMBER', 'Szeptember');
+define('_CAL_OCTOBER', 'Október');
 define('_CAL_NOVEMBER', 'November');
 define('_CAL_DECEMBER', 'December');
-// Others
-define('_CAL_TGL1STD', 'Toggle first day of week');
-define('_CAL_PREVYR', 'Prev. year (hold for menu)');
-define('_CAL_PREVMNTH', 'Prev. month (hold for menu)');
-define('_CAL_GOTODAY', 'Go Today');
-define('_CAL_NXTMNTH', 'Next month (hold for menu)');
-define('_CAL_NEXTYR', 'Next year (hold for menu)');
-define('_CAL_SELDATE', 'Select date');
-define('_CAL_DRAGMOVE', 'Drag to move');
-define('_CAL_TODAY', 'Today');
-define('_CAL_DISPM1ST', 'Display Monday first');
-define('_CAL_DISPS1ST', 'Display Sunday first');
+// Egyebek
+define('_CAL_TGL1STD', 'A hét első napjának váltása');
+define('_CAL_PREVYR', 'Előző év (tartsd lenyomva a menühöz)');
+define('_CAL_PREVMNTH', 'Előző hónap (tartsd lenyomva a menühöz)');
+define('_CAL_GOTODAY', 'Ugrás a mai napra');
+define('_CAL_NXTMNTH', 'Következő hónap (tartsd lenyomva a menühöz)');
+define('_CAL_NEXTYR', 'Következő év (tartsd lenyomva a menühöz)');
+define('_CAL_SELDATE', 'Dátum kiválasztása');
+define('_CAL_DRAGMOVE', 'Húzd az áthelyezéshez');
+define('_CAL_TODAY', 'Ma');
+define('_CAL_DISPM1ST', 'Hétfő megjelenítése első napként');
+define('_CAL_DISPS1ST', 'Vasárnap megjelenítése első napként');
