@@ -1,11 +1,11 @@
 Hello {X_UNAME},
 
-A web user from {IP} has just requested a new password for your profile at {SITENAME}.
-You can get your new password by clicking on the link below:
+Egy {IP} IP-címmel rendelkező felhasználó új jelszót kért a profilodhoz a(z) {SITENAME} webhelyen.
+Az új jelszavadat az alábbi hivatkozásra kattintva kérheted le:
 
 {NEWPWD_LINK}
 
-If you didn't ask for this, don't worry. Just delete this Email.
+Ha nem te kérted ezt, ne aggódj. Egyszerűen csak töröld ezt az e-mailt.
 
 -----------
 {SITENAME} ({SITEURL}) 
