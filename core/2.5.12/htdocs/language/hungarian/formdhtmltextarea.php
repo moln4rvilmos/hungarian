@@ -10,17 +10,17 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  *
  * @copyright       (c) 2000-2016 XOOPS Project (www.xoops.org)
- * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
- * @package             kernel
- * @subpackage          form
- * @since               2.3.0
- * @author              Taiwen Jiang <phppp@users.sourceforge.net>
+ * @license         GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * @package         kernel
+ * @subpackage      form
+ * @since           2.3.0
+ * @author          Taiwen Jiang <phppp@users.sourceforge.net>
  */
 defined('XOOPS_ROOT_PATH') || exit('Restricted access');
 
-// _LANGCODE: en
+// _LANGCODE: hu
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+// Translator: XOOPS Magyar Fordító Csapat
 /**
  * Localized fonts
  */
@@ -37,30 +37,30 @@ $GLOBALS['formtextdhtml_fonts'] = [
  * Localized font sizes: 'font size value' => 'font size name'
  */
 $GLOBALS['formtextdhtml_sizes'] = [
-    'xx-small' => 'xx-Small',
-    'x-small'  => 'x-Small',
-    'small'    => 'Small',
-    'medium'   => 'Medium',
-    'large'    => 'Large',
-    'x-large'  => 'x-Large',
-    'xx-large' => 'xx-Large',
+    'xx-small' => 'xx-Kicsi',
+    'x-small'  => 'x-Kicsi',
+    'small'    => 'Kicsi',
+    'medium'   => 'Közepes',
+    'large'    => 'Nagy',
+    'x-large'  => 'x-Nagy',
+    'xx-large' => 'xx-Nagy',
 ];
 define('_XOOPS_FORM_ALT_URL', 'URL');
-define('_XOOPS_FORM_ALT_EMAIL', 'Email');
-define('_XOOPS_FORM_ALT_IMG', 'Images');
-define('_XOOPS_FORM_ALT_IMAGE', 'Inside images');
-define('_XOOPS_FORM_ALT_SMILEY', 'Smiley');
-define('_XOOPS_FORM_ALT_CODE', 'Source code');
-define('_XOOPS_FORM_ALT_QUOTE', 'Quote');
-define('_XOOPS_FORM_ALT_BOLD', 'Bold');
-define('_XOOPS_FORM_ALT_ITALIC', 'Italic');
-define('_XOOPS_FORM_ALT_UNDERLINE', 'Underline');
-define('_XOOPS_FORM_ALT_LINETHROUGH', 'Strikethrough');
-define('_XOOPS_FORM_ALT_ENTERHEIGHT', 'Height:');
-define('_XOOPS_FORM_ALT_ENTERWIDTH', 'Width:');
-define('_XOOPS_FORM_ALT_LEFT', 'Left');
-define('_XOOPS_FORM_ALT_RIGHT', 'Right');
-define('_XOOPS_FORM_ALT_CENTER', 'Center');
+define('_XOOPS_FORM_ALT_EMAIL', 'E-mail');
+define('_XOOPS_FORM_ALT_IMG', 'Képek');
+define('_XOOPS_FORM_ALT_IMAGE', 'Belső képek');
+define('_XOOPS_FORM_ALT_SMILEY', 'Hangulatjel');
+define('_XOOPS_FORM_ALT_CODE', 'Forráskód');
+define('_XOOPS_FORM_ALT_QUOTE', 'Idézet');
+define('_XOOPS_FORM_ALT_BOLD', 'Félkövér');
+define('_XOOPS_FORM_ALT_ITALIC', 'Dőlt');
+define('_XOOPS_FORM_ALT_UNDERLINE', 'Aláhúzott');
+define('_XOOPS_FORM_ALT_LINETHROUGH', 'Áthúzott');
+define('_XOOPS_FORM_ALT_ENTERHEIGHT', 'Magasság:');
+define('_XOOPS_FORM_ALT_ENTERWIDTH', 'Szélesség:');
+define('_XOOPS_FORM_ALT_LEFT', 'Balra');
+define('_XOOPS_FORM_ALT_RIGHT', 'Jobbra');
+define('_XOOPS_FORM_ALT_CENTER', 'Középre');
 define('_XOOPS_FORM_ALTFLASH', 'Flash');
 define('_XOOPS_FORM_ALTMMS', 'MMS');
 define('_XOOPS_FORM_ALTRTSP', 'Real Player');
@@ -72,15 +72,15 @@ define('_XOOPS_FORM_ENTERWMPURL', 'WMP URL:');
 define('_XOOPS_FORM_ENTERFLASHURL', 'FLASH URL:');
 define('_XOOPS_FORM_ENTERYOUTUBEURL', 'Youtube URL:');
 define('_XOOPS_FORM_ENTERRTSPURL', 'RTSP URL:');
-define('_XOOPS_FORM_ENTERWIKITERM', 'The word to be linked to Wiki:');
+define('_XOOPS_FORM_ENTERWIKITERM', 'A WIKI-hez kapcsolni kívánt szó:');
 define('_XOOPS_FORM_ALTMP3', 'MP3');
 define('_XOOPS_FORM_ENTERMP3URL', 'MP3 URL');
-define('_XOOPS_FORM_ALT_CHECKLENGTH', 'Check text length');
-define('_XOOPS_FORM_ALT_LENGTH', 'Current content length: %s');
-define('_XOOPS_FORM_ALT_LENGTH_MAX', 'Maximum length: ');
-define('_XOOPS_FORM_PREVIEW_CONTENT', 'Click the <strong>' . _PREVIEW . '</strong> to see the content in action.');
+define('_XOOPS_FORM_ALT_CHECKLENGTH', 'Szöveghossz ellenőrzése');
+define('_XOOPS_FORM_ALT_LENGTH', 'Jelenlegi tartalom hossza: %s');
+define('_XOOPS_FORM_ALT_LENGTH_MAX', 'Maximális hossz: ');
+define('_XOOPS_FORM_PREVIEW_CONTENT', 'Kattints az <strong>' . _PREVIEW . '</strong> gombra a tartalom működés közbeni megtekintéséhez.');
 
 define('_XOOPS_FORM_ALTYOUTUBE', 'Youtube');
-define('_XOOPS_FORM_ENTER_SOUNDCLOUD_URL', 'Enter SoundCloud URL');
+define('_XOOPS_FORM_ENTER_SOUNDCLOUD_URL', 'Add meg a SoundCloud URL-t');
 define('_XOOPS_FORM_ALT_SOUNDCLOUD', 'Soundcloud');
 define('_XOOPS_FORM_ALTWMP', 'WMP');
