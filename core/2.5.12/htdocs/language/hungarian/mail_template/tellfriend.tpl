@@ -1,9 +1,9 @@
 Hello {FRIEND_NAME},
 
-Your friend {YOUR_NAME} liked our site and wanted to show it to you.
+A barátod, {YOUR_NAME}, tetszett a webhelyünk, és meg szeretné mutatni neked.
 
-Site Name: {SITENAME}
-Site URL:  {SITEURL}
+Webhely neve: {SITENAME}
+Webhely URL-je: {SITEURL}
 
 -----------
 {SITENAME} ({SITEURL}) 
