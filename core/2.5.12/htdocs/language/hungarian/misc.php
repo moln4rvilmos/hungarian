@@ -1,28 +1,28 @@
 <?php
-// 
-// _LANGCODE: en
+//
+// _LANGCODE: hu
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
-define('_MSC_YOURNAMEC', 'Your Name: ');
-define('_MSC_YOUREMAILC', 'Your Email: ');
-define('_MSC_FRIENDNAMEC', 'Friend Name: ');
-define('_MSC_FRIENDEMAILC', 'Friend Email: ');
-define('_MSC_RECOMMENDSITE', 'Recommend this Site to a Friend');
+// Translator: XOOPS Magyar Fordító Csapat
+define('_MSC_YOURNAMEC', 'A Neved: ');
+define('_MSC_YOUREMAILC', 'Az E-mail címed: ');
+define('_MSC_FRIENDNAMEC', 'Barát Neve: ');
+define('_MSC_FRIENDEMAILC', 'Barát E-mail címe: ');
+define('_MSC_RECOMMENDSITE', 'Ajánld ezt az Oldalt egy Barátodnak');
 // %s is your site name
-define('_MSC_INTSITE', 'Interesting Site: %s');
-define('_MSC_REFERENCESENT', 'The reference to our site has been sent to your friend. Thanks!');
-define('_MSC_ENTERYNAME', 'Please enter your name');
-define('_MSC_ENTERFNAME', 'Please enter your friend\'s name');
-define('_MSC_ENTERFMAIL', 'Please enter your friend\'s email address');
-define('_MSC_NEEDINFO', 'You need to enter required info!');
-define('_MSC_INVALIDEMAIL1', 'The email address you provided is not a valid address.');
-define('_MSC_INVALIDEMAIL2', 'Please check the address and try again.');
-define('_MSC_AVAVATARS', 'Available Avatars');
-define('_MSC_SMILIES', 'Smilies');
-define('_MSC_CLICKASMILIE', 'Click a smilie to insert it into your message.');
-define('_MSC_CODE', 'Code');
-define('_MSC_EMOTION', 'Emotion');
+define('_MSC_INTSITE', 'Érdekes webhely: %s');
+define('_MSC_REFERENCESENT', 'A webhelyünk ajánlása el lett küldve a barátodnak. Köszönjük!');
+define('_MSC_ENTERYNAME', 'Kérlek, add meg a nevedet');
+define('_MSC_ENTERFNAME', 'Kérlek, add meg a barátod nevét');
+define('_MSC_ENTERFMAIL', 'Kérlek, add meg a barátod e-mail címét');
+define('_MSC_NEEDINFO', 'Meg kell adnod a szükséges információkat!');
+define('_MSC_INVALIDEMAIL1', 'Az e-mail cím, amit megadtál, nem érvényes.');
+define('_MSC_INVALIDEMAIL2', 'Kérlek, ellenőrizd a címet, és próbáld újra.');
+define('_MSC_AVAVATARS', 'Elérhető Avatárok');
+define('_MSC_SMILIES', 'Hangulatjelek');
+define('_MSC_CLICKASMILIE', 'Kattints egy hangulatjelre, hogy beilleszd az üzenetedbe.');
+define('_MSC_CODE', 'Kód');
+define('_MSC_EMOTION', 'Érzelem');
 
-define('_MSC_CLICK_TO_OPEN_IMAGE', 'Click to see original Image in a new window');
-define('_MSC_RESIZED_IMAGE', 'Resized Image');
-define('_MSC_ORIGINAL_IMAGE', 'Original Image');
+define('_MSC_CLICK_TO_OPEN_IMAGE', 'Kattints az eredeti Kép megtekintéséhez egy új ablakban');
+define('_MSC_RESIZED_IMAGE', 'Átméretezett Kép');
+define('_MSC_ORIGINAL_IMAGE', 'Eredeti Kép');
