@@ -1,13 +1,13 @@
 <?php
-// 
-// _LANGCODE: en
+//
+// _LANGCODE: hu
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+// Translator: XOOPS Magyar Fordító Csapat
 
-define('_AUTH_MSG_AUTH_METHOD', 'using %s authentication method');
-define('_AUTH_LDAP_EXTENSION_NOT_LOAD', 'PHP LDAP extension not loaded (verify your PHP configuration file php.ini)');
-define('_AUTH_LDAP_SERVER_NOT_FOUND', "Can't connect to the server");
-define('_AUTH_LDAP_USER_NOT_FOUND', 'Member %s not found in the directory server (%s) in %s');
-define('_AUTH_LDAP_CANT_READ_ENTRY', "Can't read entry %s");
-define('_AUTH_LDAP_XOOPS_USER_NOTFOUND', 'Sorry, no corresponding user information has been found in the XOOPS database for connection: %s <br>' . 'Please verify your user data or set on the automatic provisioning');
-define('_AUTH_LDAP_START_TLS_FAILED', 'Failed to open a TLS connection');
+define('_AUTH_MSG_AUTH_METHOD', 'a(z) %s hitelesítési módszer használatával');
+define('_AUTH_LDAP_EXTENSION_NOT_LOAD', 'A PHP LDAP kiterjesztés nincs betöltve (ellenőrizd a PHP konfigurációs fájlodat, a php.ini-t)');
+define('_AUTH_LDAP_SERVER_NOT_FOUND', "Nem lehet csatlakozni a szerverhez");
+define('_AUTH_LDAP_USER_NOT_FOUND', 'A(z) %s tag nem található a könyvtárszerveren (%s) itt: %s');
+define('_AUTH_LDAP_CANT_READ_ENTRY', "Nem lehet olvasni a(z) %s bejegyzést");
+define('_AUTH_LDAP_XOOPS_USER_NOTFOUND', 'Sajnálom, nem található megfelelő felhasználói információ a XOOPS adatbázisban a(z) %s kapcsolathoz. <br>' . 'Kérlek, ellenőrizd a felhasználói adataidat, vagy állítsd be az automatikus szolgáltatásellátást (provisioning)');
+define('_AUTH_LDAP_START_TLS_FAILED', 'Nem sikerült TLS kapcsolatot nyitni');
