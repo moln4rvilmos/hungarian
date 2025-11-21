@@ -1,14 +1,14 @@
 Hello {X_UNAME},
 
 
-You have been successfully registered at {X_SITENAME} using user name of "{X_UNAME}".
-You are welcome to visit {X_SITENAME} at: {X_SITEURL}
+Sikeresen regisztráltál a(z) {X_SITENAME} webhelyen, a(z) "{X_UNAME}" felhasználónévvel.
+Szeretettel üdvözlünk, és bármikor meglátogathatod a(z) {X_SITENAME} webhelyet itt: {X_SITEURL}
 
 {TERMSOFUSE}
 
-In case you have any problem or inconvenience using "{X_SITENAME}", please feel free to contact us: {X_ADMINMAIL}
+Amennyiben bármilyen problémád vagy kellemetlenséged adódik a(z) "{X_SITENAME}" használata során, kérjük, keress minket bátran: {X_ADMINMAIL}
 
-Best regards,
+Üdvözlettel,
 
 -----------
 {X_SITENAME}: {X_SITEURL} 
