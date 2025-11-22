@@ -1,62 +1,60 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="Back to the Administration of Profile"> Profile <img src="<{xoAdminIcons 'home.png'}>" alt="Back to the Administration of Profile"/></a></h1>
-    <!-- -----Help Content ---------- -->
-    <h4 class="odd">DESCRIPTION</h4>
+    <h1 class="head">Súgó: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="Vissza a Profil adminisztrációjához"> Profil <img src="<{xoAdminIcons 'home.png'}>" alt="Vissza a Profil adminisztrációjához"/></a></h1>
+    <h4 class="odd">LEÍRÁS</h4>
 
-    <p class="even">The Profile module is for managing custom user profile fields.</p>
-    <h4 class="odd">INSTALL/UNINSTALL</h4>
+    <p class="even">A Profil modul az egyedi felhasználói profil mezők kezelésére szolgál.</p>
+    <h4 class="odd">TELEPÍTÉS/ELTÁVOLÍTÁS</h4>
 
-    <p>No special measures necessary, follow the standard installation process – extract the /profile folder into the ../modules directory. Install the module through Admin -> System Module -> Modules.</p>
+    <p>Nincs szükség különleges intézkedésekre, kövesd a szokásos telepítési folyamatot – csomagold ki a /profile mappát a ../modules könyvtárba. Telepítsd a modult az Admin -> Rendszermodul -> Modulok menüpontban.</p>
 
-    <p>Detailed instructions on installing modules are available in the <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Operations Manual">XOOPS Operations Manual</a> <br><br></p>
-    <h4 class="odd">OPERATING INSTRUCTIONS</h4>
+    <p>A modulok telepítésére vonatkozó részletes utasítások elérhetők a <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Kezelési Kézikönyv">XOOPS Kezelési Kézikönyvben</a> <br><br></p>
+    <h4 class="odd">HASZNÁLATI UTASÍTÁSOK</h4>
 
-    <p class="even">To set up this module you need to:</p>
+    <p class="even">A modul beállításához a következőket kell tenned:</p>
     <ul>
-        <li>Configure your preferences for the module (see ‘Preferences’) and optionally the Profile block if you intend to use it (see ‘Blocks’).</li>
-        <li>Edit existing Categories or add new ones.</li>
-        <li>Edit existing Fields or add new ones. Here you can specify which fields will be visible in which category, and if they will be visible during user registration.</li>
-        <li>Define the order of Registration steps.</li>
-        <li>And finally, you can set permissions for individual fields - which ones are editable, which ones are searchable.<br><br></li>
+        <li>Állítsd be a modulhoz tartozó preferenciákat (lásd „Preferenciák”) és opcionálisan a Profil blokkot, ha használni szeretnéd (lásd „Blokkok”).</li>
+        <li>Szerkeszd a meglévő Kategóriákat vagy adj hozzá újakat.</li>
+        <li>Szerkeszd a meglévő Mezőket vagy adj hozzá újakat. Itt adhatod meg, hogy mely mezők láthatók, mely kategóriákban, és hogy láthatók-e a felhasználói regisztráció során.</li>
+        <li>Határozd meg a Regisztrációs lépések sorrendjét.</li>
+        <li>Végül pedig beállíthatod az egyedi mezők jogosultságait – melyek szerkeszthetők, melyek kereshetők.<br><br></li>
     </ul>
-    <h4 class="odd">Anti-Spam measures</h4>
+    <h4 class="odd">Spam elleni védekezés</h4>
 
-    <p class="even">To minimize spam registrations, do the following:</p>
+    <p class="even">A spam regisztrációk minimalizálása érdekében tedd a következőket:</p>
 
     <ul>
-        <li> go to the Protector module in Admin, go to Preferences, and then at the bottom, at this option:
+        <li> menj az Admin területen a Protector modulhoz, lépj a Preferenciák menüpontba, majd alul keresd meg ezt az opciót:
 
             "Stop Forum Spam"
-            Checks POST data against spammers registered on www.stopforumspam.com database. <br>
-            Set it to "Ban the IP (no limit)"
+            Ellenőrzi a POST adatokat a www.stopforumspam.com adatbázisában regisztrált spammerekkel szemben. <br>
+            Állítsd a beállítást "IP-cím tiltása (nincs korlát)" opcióra.
         </li>
         <br>
 
-        <li> in /class/captcha/config.php, make sure that the mode is set as "text":<br><br>
+        <li> a /class/captcha/config.php fájlban győződj meg arról, hogy a mód "text" értékre van állítva:<br><br>
 
-    <span style="font-style: italic;">     return $config = array(<br>
-    'disabled' => false, // Disable CAPTCHA<br>
-    'mode' => 'text', // default mode, you can choose 'text', 'image', 'recaptcha'(requires api key)<br>
-    'name' => 'xoopscaptcha', // captcha name<br>
-    'skipmember' => true, // Skip CAPTCHA check for members<br>
-    'maxattempts' => 10, // Maximum attempts for each session<br>
-    );</span></li>
+        <span style="font-style: italic;">    return $config = array(<br>
+        'disabled' => false, // CAPTCHA letiltása<br>
+        'mode' => 'text', // alapértelmezett mód, választható: 'text', 'image', 'recaptcha' (API kulcs szükséges)<br>
+        'name' => 'xoopscaptcha', // captcha neve<br>
+        'skipmember' => true, // CAPTCHA ellenőrzés kihagyása tagok esetén<br>
+        'maxattempts' => 10, // Maximális próbálkozások száma munkamenetenként<br>
+        );</span></li>
         <br>
 
-        <li> In the Profile module, go to Admin and in the Basic step located at:<br>
+        <li> A Profil modulban menj az Admin területre, és az Alapvető lépésnél, amely itt található:<br>
 
             /modules/profile/admin/step.php?id=1<br>
 
-            set the "Save after stop" to "No"
+            állítsd a "Mentés a lépés után" (Save after stop) opciót "Nem" értékre.
         </li>
         <br><br>
 
-        <li> In Profile Preferences, set the "Use Captcha after the second Registration step" Option to "Yes" (it is the default)</li>
+        <li> A Profil Preferenciákban állítsd be a "Használjak Captcha-t a második regisztrációs lépés után?" opciót "Igen" értékre (ez az alapértelmezett)</li>
         <br>
         <ul>
 
-            <h4 class="odd">TUTORIAL</h4>
+            <h4 class="odd">OKTATÓANYAG</h4>
 
-            <p class="even">Tutorial coming soon.<br></p>
-            <!-- -----Help Content ---------- -->
-</div>
+            <p class="even">Oktatóanyag hamarosan érkezik.<br></p>
+            </div>
