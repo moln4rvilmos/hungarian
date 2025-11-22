@@ -1,83 +1,81 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Back to the administration of Protector"> Protector <img src="<{xoAdminIcons 'home.png'}>" alt="Back to the administration of Protector"/></a></h1>
-    <!-- -----Help Content ---------- -->
-    <h4 class="odd">Description</h4>
+    <h1 class="head">Súgó: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Vissza a Protector adminisztrációjához"> Protector <img src="<{xoAdminIcons 'home.png'}>" alt="Vissza a Protector adminisztrációjához"/></a></h1>
+    <h4 class="odd">Leírás</h4>
 
-    <p class="even">Protector is a module to defend your XOOPS CMS from various malicious attacks.</p>
-    <h4 class="odd">Install/uninstall</h4>
+    <p class="even">A Protector egy modul a XOOPS CMS védelmére a különféle rosszindulatú támadások ellen.</p>
+    <h4 class="odd">Telepítés/eltávolítás</h4>
 
-    <p>First, define XOOPS_TRUST_PATH into mainfile.php if you've never done it yet.</p>
+    <p>Először is, definiáld a **XOOPS_TRUST_PATH** útvonalat a **mainfile.php** fájlban, ha még nem tetted meg.</p>
     <br>
 
-    <p>Copy html/modules/protector in the archive into your XOOPS_ROOT_PATH/modules/</p>
+    <p>Másold a html/modules/protector mappát az archívumból a XOOPS_ROOT_PATH/modules/ mappádba.</p>
 
-    <p>Copy xoops_trust_path/modules/protector in the archive into your XOOPS_TRUST_PATH/modules/</p>
+    <p>Másold a xoops_trust_path/modules/protector mappát az archívumból a XOOPS_TRUST_PATH/modules/ mappádba.</p>
     <br>
 
-    <p>Turn permission of XOOPS_TRUST_PATH/modules/protector/configs writable</p>
-    <h4 class="odd">= How to rescue =</h4>
+    <p>Állítsd írhatóra a XOOPS_TRUST_PATH/modules/protector/configs mappa jogosultságát (chmod).</p>
+    <h4 class="odd">= Hogyan mentsd meg =</h4>
 
-    <p class="even">If you've been banned from Protector, just delete files under XOOPS_TRUST_PATH/modules/protector/configs/</p>
-    <h4 class="odd">Introduction for filter-plugins in this archive.</h4>
+    <p class="even">Ha a Protector kitiltott téged, egyszerűen csak töröld a fájlokat a **XOOPS_TRUST_PATH/modules/protector/configs/** mappa alatt.</p>
+    <h4 class="odd">Bevezetés a szűrő-pluginokhoz ebben az archívumban.</h4>
 
-    <p class="even">- postcommon_post_deny_by_rbl.php
+    <p class="even">- **postcommon_post_deny_by_rbl.php**
         <br>
-        an anti-SPAM plugin.
+        Egy SPAM-ellenes plugin.
         <br>
-        All of Post from IP registered in RBL will be rejected.
+        Minden olyan üzenet, ami RBL-ben regisztrált IP-címről érkezik, el lesz utasítva.
         <br>
-        This plugin can slow the performance of Post, especially chat modules.
+        Ez a plugin lassíthatja az üzenetek küldését, különösen a chat modulok esetén.
     </p>
 
-    <p>- postcommon_post_deny_by_httpbl.php
+    <p>- **postcommon_post_deny_by_httpbl.php**
         <br>
-        an anti-SPAM plugin.
+        Egy SPAM-ellenes plugin.
         <br>
-        All of Post from IP registered in http:BL will be rejected.
+        Minden olyan üzenet, ami a http:BL-ben regisztrált IP-címről érkezik, el lesz utasítva.
         <br>
-        Before using it, get HTTPBL_KEY from http://www.projecthoneypot.org/ and set it into the filter file.
+        Használat előtt szerezd be a **HTTPBL_KEY** kulcsot a http://www.projecthoneypot.org/ oldalról, és állítsd be azt a szűrőfájlban:
         <br>
         define( 'PROTECTOR_HTTPBL_KEY' , '............' ) ;
     </p>
 
-    <p class="even">- postcommon_post_need_multibyte.php
+    <p class="even">- **postcommon_post_need_multibyte.php**
         <br>
-        an anti-SPAM plugin.
+        Egy SPAM-ellenes plugin.
         <br>
-        Post without multibyte characters will be rejected.
+        A többbájtos karakterek nélküli üzenetek el lesznek utasítva.
         <br>
-        This plugin is only for sites of japanese, tchinese, schinese, and korean.
+        Ez a plugin csak japán, hagyományos kínai, egyszerűsített kínai és koreai oldalakhoz használható.
     </p>
 
-    <p>- postcommon_post_htmlpurify4guest.php
+    <p>- **postcommon_post_htmlpurify4guest.php**
         <br>
-        All post data sent by guests will be purified by HTMLPurifier.
+        Minden vendégek által küldött üzenet adatai HTMLPurifier-rel lesznek megtisztítva.
         <br>
-        If you allow guests posting HTML, I strongly recommend you to enable it.
+        Ha engedélyezed a vendégeknek a HTML beillesztést, erősen ajánlom az engedélyezését.
     </p>
 
-    <p class="even">-postcommon_register_insert_js_check.php
+    <p class="even">-**postcommon_register_insert_js_check.php**
         <br>
-        This plugin prevents your site from robot's user registering.
+        Ez a plugin megakadályozza, hogy robotok regisztráljanak az oldaladon.
         <br>
-        Required JavaScript working on the vistors browser.
+        A látogató böngészőjében működő JavaScript szükséges hozzá.
     </p>
 
-    <p>- bruteforce_overrun_message.php
+    <p>- **bruteforce_overrun_message.php**
         <br>
-        Specify a message for visitors tried wrong passwords more than the specified times.
+        Meghatározza az üzenetet azoknak a látogatóknak, akik a megadott számú alkalomnál többször próbáltak rossz jelszóval bejelentkezni.
         <br>
-        All plugins named *_message.php specifys the message for rejected accesses.
+        Minden `*_message.php` nevű plugin határozza meg az elutasított hozzáférésekhez tartozó üzenetet.
     </p>
 
-    <p class="even">- precommon_bwlimit_errorlog.php
+    <p class="even">- **precommon_bwlimit_errorlog.php**
         <br>
-        When bandwidth limitation works unfortunately, this plugin logs it into Apache's error_log.
+        Ha a sávszélesség korlátozás (bandwidth limitation) sajnos működésbe lép, ez a plugin naplózza azt az Apache error_log fájljába.
     </p>
 
-    <p>All plugins named *_errorlog.php log some informations into Apaches error_log.</p>
-    <h4 class="odd">Tutorial</h4>
+    <p>Minden `*_errorlog.php` nevű plugin naplóz bizonyos információkat az Apache error_log fájljába.</p>
+    <h4 class="odd">Oktatóanyag</h4>
 
-    <p class="even">Tutorial coming soon.</p>
-    <!-- -----Help Content ---------- -->
-</div>
+    <p class="even">Oktatóanyag hamarosan érkezik.</p>
+    </div>
