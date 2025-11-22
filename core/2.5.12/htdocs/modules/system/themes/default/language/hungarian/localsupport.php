@@ -3,7 +3,7 @@
 
 $menu = [];
 
-// sample for English  support
+// minta a magyar nyelvi támogatáshoz
 /*
 $menu[] = array(
     'link'      => 'https://xoops.org',
@@ -21,14 +21,14 @@ $menu[] = array(
 
 $menu[] = array(
     'link'      => 'https://xoops.org/modules/library/',
-    'title'     => _AD_XOOPSTHEMES,
+    'title'     => _OXYGEN_XOOPSTHEMES, // XOOPS Témák
     'absolute'  => 1,
     'icon'      => XOOPS_ADMINTHEME_URL . '/default/images/tweb.png'
 );
 
 $menu[] = array(
     'link'      => 'https://github.com/XoopsModules25x',
-    'title'     => _AD_XOOPSMODULES,
+    'title'     => _OXYGEN_XOOPSMODULES, // XOOPS Modulok
     'absolute'  => 1,
     'icon'      => XOOPS_ADMINTHEME_URL . '/default/images/xoops.png'
 );
