@@ -1,10 +1,10 @@
-Hello {X_UNAME},
+Szia {X_UNAME},
 
-You email address at {SITENAME} has been successfully changed. 
+Az e-mail címedet a(z) {SITENAME} oldalon sikeresen megváltoztattuk.
 
-If you have any question, please feel free to contact us.
+Ha bármilyen kérdésed van, kérlek, bátran lépj velünk kapcsolatba.
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+webmester
 {ADMINMAIL}
