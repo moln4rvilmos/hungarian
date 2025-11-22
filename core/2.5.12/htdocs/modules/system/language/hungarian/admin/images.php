@@ -2,47 +2,48 @@
 /**
  * @copyright       (c) 2000-2016 XOOPS Project (www.xoops.org)
  * @license         GNU GPL 2.0 or later (https://www.gnu.org/licenses/gpl-2.0.html)
- * _LANGCODE    en
- * _CHARSET     UTF-8
+ * _LANGCODE        hu
+ * _CHARSET         UTF-8
+ * Translator: Molnár Vilmos (XOOPS Translation Team)
  */
 // Navigation
-define('_AM_SYSTEM_IMAGES_MANAGER', 'Image Manager');
-define('_AM_SYSTEM_IMAGES_MAIN', 'Main');
-define('_AM_SYSTEM_IMAGES_IMGLIST', 'Image List');
+define('_AM_SYSTEM_IMAGES_MANAGER', 'Képkezelő');
+define('_AM_SYSTEM_IMAGES_MAIN', 'Főoldal');
+define('_AM_SYSTEM_IMAGES_IMGLIST', 'Kép Lista');
 // Main
-define('_AM_SYSTEM_IMAGES_ADDCAT', 'Add Category');
-define('_AM_SYSTEM_IMAGES_ADDIMG', 'Add Image');
-define('_AM_SYSTEM_IMAGES_MULTIUPLOAD', 'Multi uploads');
-define('_AM_SYSTEM_IMAGES_EDITIMG', 'Edit Image');
-define('_AM_SYSTEM_IMAGES_CATLIST', 'Category List');
-define('_AM_SYSTEM_IMAGES_NOCAT', 'No Category Available');
-define('_AM_SYSTEM_IMAGES_NAME', 'Name');
-define('_AM_SYSTEM_IMAGES_NBIMAGES', 'Images');
-define('_AM_SYSTEM_IMAGES_MAXSIZE', 'Max size');
-define('_AM_SYSTEM_IMAGES_MAXWIDTH', 'Max width');
-define('_AM_SYSTEM_IMAGES_MAXHEIGHT', 'Max height');
-define('_AM_SYSTEM_IMAGES_DISPLAY', 'Display');
-define('_AM_SYSTEM_IMAGES_ACTIONS', 'Actions');
-define('_AM_SYSTEM_IMAGES_VIEW', 'View');
-define('_AM_SYSTEM_IMAGES_INDB', ' Store in the database (as binary "blob" data)');
-define('_AM_SYSTEM_IMAGES_ASFILE', ' Store as files (in uploads directory)<br>');
-define('_AM_SYSTEM_IMAGES_IMGCATNAME', 'Category Name:');
-define('_AM_SYSTEM_IMAGES_IMGCATRGRP', 'Select groups for image manager use:<br><br><span style="font-weight: normal;">These are groups allowed to use the image manager for selecting images but not uploading. Webmaster has automatic access.</span>');
-define('_AM_SYSTEM_IMAGES_IMGCATWGRP', 'Select groups allowed to upload images:<br><br><span style="font-weight: normal;">Typical usage is for moderator and admin groups.</span>');
-define('_AM_SYSTEM_IMAGES_IMGCATDISPLAY', 'Display this category?');
-define('_AM_SYSTEM_IMAGES_IMGCATSTRTYPE', 'Images are uploaded to:');
-define('_AM_SYSTEM_IMAGES_STRTYOPENG', 'This can not be changed afterwards!');
-define('_AM_SYSTEM_IMAGES_IMGCATWEIGHT', 'Display order in image manager:');
-define('_AM_SYSTEM_IMAGES_OFF', 'Display in image manager');
-define('_AM_SYSTEM_IMAGES_ON', 'Does not display in image manager');
-define('_AM_SYSTEM_IMAGES_URL', 'Show image URL');
+define('_AM_SYSTEM_IMAGES_ADDCAT', 'Kategória Hozzáadása');
+define('_AM_SYSTEM_IMAGES_ADDIMG', 'Kép Hozzáadása');
+define('_AM_SYSTEM_IMAGES_MULTIUPLOAD', 'Több fájl feltöltése');
+define('_AM_SYSTEM_IMAGES_EDITIMG', 'Kép Szerkesztése');
+define('_AM_SYSTEM_IMAGES_CATLIST', 'Kategória Lista');
+define('_AM_SYSTEM_IMAGES_NOCAT', 'Nincs Elérhető Kategória');
+define('_AM_SYSTEM_IMAGES_NAME', 'Név');
+define('_AM_SYSTEM_IMAGES_NBIMAGES', 'Képek');
+define('_AM_SYSTEM_IMAGES_MAXSIZE', 'Max méret');
+define('_AM_SYSTEM_IMAGES_MAXWIDTH', 'Max szélesség');
+define('_AM_SYSTEM_IMAGES_MAXHEIGHT', 'Max magasság');
+define('_AM_SYSTEM_IMAGES_DISPLAY', 'Megjelenítés');
+define('_AM_SYSTEM_IMAGES_ACTIONS', 'Műveletek');
+define('_AM_SYSTEM_IMAGES_VIEW', 'Megtekintés');
+define('_AM_SYSTEM_IMAGES_INDB', ' Tárolás az adatbázisban (bináris "blob" adatként)');
+define('_AM_SYSTEM_IMAGES_ASFILE', ' Tárolás fájlként (a feltöltések könyvtárban)<br>');
+define('_AM_SYSTEM_IMAGES_IMGCATNAME', 'Kategória Neve:');
+define('_AM_SYSTEM_IMAGES_IMGCATRGRP', 'Válaszd ki azokat a csoportokat, amelyek használhatják a képkezelőt a képek kiválasztásához:<br><br><span style="font-weight: normal;">Ezek azok a csoportok, amelyek jogosultak a képkezelő használatára a képek kiválasztására, de nem feltöltésére. A webmester automatikus hozzáféréssel rendelkezik.</span>');
+define('_AM_SYSTEM_IMAGES_IMGCATWGRP', 'Válaszd ki azokat a csoportokat, amelyek jogosultak a képek feltöltésére:<br><br><span style="font-weight: normal;">Általában a moderátor és admin csoportoknak adjuk.</span>');
+define('_AM_SYSTEM_IMAGES_IMGCATDISPLAY', 'Megjelenítsem ezt a kategóriát?');
+define('_AM_SYSTEM_IMAGES_IMGCATSTRTYPE', 'A képek feltöltésének helye:');
+define('_AM_SYSTEM_IMAGES_STRTYOPENG', 'Ezt utólag nem lehet megváltoztatni!');
+define('_AM_SYSTEM_IMAGES_IMGCATWEIGHT', 'Megjelenítési sorrend a képkezelőben:');
+define('_AM_SYSTEM_IMAGES_OFF', 'Megjelenítés a képkezelőben');
+define('_AM_SYSTEM_IMAGES_ON', 'Nem jelenít meg a képkezelőben');
+define('_AM_SYSTEM_IMAGES_URL', 'Kép URL megjelenítése');
 // Messages
-define('_AM_SYSTEM_IMAGES_RUDELIMG', 'Are you sure that you want to delete this images file?');
-define('_AM_SYSTEM_IMAGES_FAILSAVE', 'Failed save image %s into the database');
-define('_AM_SYSTEM_IMAGES_RUDELIMGCAT', 'Are you sure that you want to delete this category and all of its images files?');
-define('_AM_SYSTEM_IMAGES_FAILDEL', 'Failed deleting image %s from the database');
-define('_AM_SYSTEM_IMAGES_FAILDELCAT', 'Failed deleting image category %s from the database');
-define('_AM_SYSTEM_IMAGES_FAILUNLINK', 'Failed deleting image %s from the server directory');
-define("_AM_SYSTEM_IMAGES_SCATDELNG","Can't delete this category");
+define('_AM_SYSTEM_IMAGES_RUDELIMG', 'Biztos vagy benne, hogy törölni szeretnéd ezt a képfájlt?');
+define('_AM_SYSTEM_IMAGES_FAILSAVE', 'A(z) %s kép mentése sikertelen az adatbázisba');
+define('_AM_SYSTEM_IMAGES_RUDELIMGCAT', 'Biztos vagy benne, hogy törölni szeretnéd ezt a kategóriát és az összes képfájlját?');
+define('_AM_SYSTEM_IMAGES_FAILDEL', 'A(z) %s kép törlése sikertelen az adatbázisból');
+define('_AM_SYSTEM_IMAGES_FAILDELCAT', 'A(z) %s képkategória törlése sikertelen az adatbázisból');
+define('_AM_SYSTEM_IMAGES_FAILUNLINK', 'A(z) %s kép törlése sikertelen a szerver könyvtárából');
+define("_AM_SYSTEM_IMAGES_SCATDELNG","Nem törölhető ez a kategória");
 // Tips
-define('_AM_SYSTEM_IMAGES_TIPS', '<ul><li>Manage categories of images and users permissions</li></ul>');
+define('_AM_SYSTEM_IMAGES_TIPS', '<ul><li>Kezeld a képkategóriákat és a felhasználói jogosultságokat.</li></ul>');
