@@ -1,5 +1,5 @@
-<h3>Did you know?</h3>
+<h3>Tudtad?</h3>
 
-You can configure your preferred icons at any time by
-<a href="modules/system/admin.php?fct=preferences&op=showmod&mod=1">configuring system module</a> and selecting "transition" or "default"
-as your preferred icons.
+Bármikor konfigurálhatod az előnyben részesített ikonokat a
+<a href="modules/system/admin.php?fct=preferences&op=showmod&mod=1">rendszer modul konfigurálásával</a>, és kiválaszthatod a "transition" vagy "default"
+ikonszettet, mint preferált ikonjaidat.
