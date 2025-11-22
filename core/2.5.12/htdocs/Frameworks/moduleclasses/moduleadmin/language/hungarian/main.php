@@ -15,37 +15,37 @@
  * @author      Grégory Mage (Aka Mage)
  */
 // Info
-define('_AM_MODULEADMIN_CONFIG', 'Configuration Check');
-define('_AM_MODULEADMIN_CONFIG_CHMOD', "The folder '%s' must be with a chmod '%s' (it's now set on %s).");
-define('_AM_MODULEADMIN_CONFIG_FOLDERKO', "The folder '%s' does not exist");
-define('_AM_MODULEADMIN_CONFIG_FOLDEROK', "The folder '%s' exists");
-define('_AM_MODULEADMIN_CONFIG_PHP', 'Minimum PHP required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_XOOPS', 'Minimum XOOPS required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_DB', 'Minimum version required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_ADMIN', 'Minimum ModuleAdmin required: %s (your version is %s)');
+define('_AM_MODULEADMIN_CONFIG', 'Konfiguráció Ellenőrzése');
+define('_AM_MODULEADMIN_CONFIG_CHMOD', "A(z) '%s' mappának '%s' chmod beállítással kell rendelkeznie (jelenleg %s).");
+define('_AM_MODULEADMIN_CONFIG_FOLDERKO', "A(z) '%s' mappa nem létezik");
+define('_AM_MODULEADMIN_CONFIG_FOLDEROK', "A(z) '%s' mappa létezik");
+define('_AM_MODULEADMIN_CONFIG_PHP', 'Szükséges minimális PHP verzió: %s (a te verziód %s)');
+define('_AM_MODULEADMIN_CONFIG_XOOPS', 'Szükséges minimális XOOPS verzió: %s (a te verziód %s)');
+define('_AM_MODULEADMIN_CONFIG_DB', 'Szükséges minimális verzió: %s (a te verziód %s)');
+define('_AM_MODULEADMIN_CONFIG_ADMIN', 'Szükséges minimális ModuleAdmin verzió: %s (a te verziód %s)');
 // About
-define('_AM_MODULEADMIN_ABOUT_CHANGELOG', 'Change log');
-define('_AM_MODULEADMIN_ABOUT_AMOUNT', 'Amount');
-define('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'Please enter USD amount e.g. $25.00');
+define('_AM_MODULEADMIN_ABOUT_CHANGELOG', 'Változások naplója');
+define('_AM_MODULEADMIN_ABOUT_AMOUNT', 'Összeg');
+define('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'Kérlek, USD összeget adj meg, pl. $25.00');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'USD');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_SUGGESTED', '25.00');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_PATTERN', '\\$?[0-9]+(,[0-9]{3})*(\\.[0-9]{0,2})?$');
-define('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'Donate using PayPal or a major credit card online!');
-define('_AM_MODULEADMIN_ABOUT_DESCRIPTION', 'Description');
-define('_AM_MODULEADMIN_ABOUT_MODULEINFO', 'Module Info');
-define('_AM_MODULEADMIN_ABOUT_MODULESTATUS', 'Status');
-define('_AM_MODULEADMIN_ABOUT_UPDATEDATE', 'Updated');
-define('_AM_MODULEADMIN_ABOUT_WEBSITE', 'Website');
-define('_AM_MODULEADMIN_ABOUT_RELEASEDATE', 'Released: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR', 'Author: ');
-define('_AM_MODULEADMIN_ABOUT_BY', 'by ');
-define('_AM_MODULEADMIN_ABOUT_CREDITS', 'Credits: ');
-define('_AM_MODULEADMIN_ABOUT_LICENSE', 'License: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR_NAME', 'Author name: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR_INFO', 'Author Info');
-define('_AM_MODULEADMIN_HOME', 'Home');
-define('_AM_MODULEADMIN_DASHBOARD', 'Dashboard');
-define('_AM_MODULEADMIN_ABOUT', 'About');
-define('_AM_MODULEADMIN_PERMISSIONS', 'Permissions');
+define('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'Adományozz PayPal vagy hitelkártya használatával online!');
+define('_AM_MODULEADMIN_ABOUT_DESCRIPTION', 'Leírás');
+define('_AM_MODULEADMIN_ABOUT_MODULEINFO', 'Modul Információ');
+define('_AM_MODULEADMIN_ABOUT_MODULESTATUS', 'Állapot');
+define('_AM_MODULEADMIN_ABOUT_UPDATEDATE', 'Frissítve');
+define('_AM_MODULEADMIN_ABOUT_WEBSITE', 'Weboldal');
+define('_AM_MODULEADMIN_ABOUT_RELEASEDATE', 'Kiadva: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR', 'Szerző: ');
+define('_AM_MODULEADMIN_ABOUT_BY', 'által ');
+define('_AM_MODULEADMIN_ABOUT_CREDITS', 'Köszönetnyilvánítás: ');
+define('_AM_MODULEADMIN_ABOUT_LICENSE', 'Licenc: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR_NAME', 'Szerző neve: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR_INFO', 'Szerző adatai');
+define('_AM_MODULEADMIN_HOME', 'Kezdőlap');
+define('_AM_MODULEADMIN_DASHBOARD', 'Irányítópult');
+define('_AM_MODULEADMIN_ABOUT', 'Névjegy');
+define('_AM_MODULEADMIN_PERMISSIONS', 'Jogosultságok');
 //ModuleAdmin
-define('_AM_MODULEADMIN_ADMIN_FOOTER', "<div class='center smallsmall italic pad5'>This module is maintained by the <a class='tooltip' rel='external' href='https://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
+define('_AM_MODULEADMIN_ADMIN_FOOTER', "<div class='center smallsmall italic pad5'>Ezt a modult a <a class='tooltip' rel='external' href='https://xoops.org/' title='Látogasd meg a XOOPS Közösséget'>XOOPS Közösség</a> tartja karban</div>");
