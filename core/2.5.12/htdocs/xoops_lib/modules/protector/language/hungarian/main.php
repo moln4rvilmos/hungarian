@@ -1,8 +1,8 @@
 <?php
-define('_MD_PROTECTOR_YOUAREBADIP', 'You are registered as BAD_IP by Protector.<br>');
-define('_MD_PROTECTOR_FMT_JAILINFO', 'This restriction will be expired on %s');
+define('_MD_PROTECTOR_YOUAREBADIP', 'A Protector Rossz IP-ként regisztrált.<br>');
+define('_MD_PROTECTOR_FMT_JAILINFO', 'Ez a korlátozás lejár: %s');
 define('_MD_PROTECTOR_FMT_JAILTIME', 'Y-m-j H:i:s');
-define('_MD_PROTECTOR_BANDWIDTHLIMITED', 'This website is very busy now. Please try later.');
-define('_MD_PROTECTOR_TURNJAVASCRIPTON', 'Turn JavaScript ON');
-define('_MD_PROTECTOR_DENYBYRBL', 'Protector rejects your post, because your IP is registered in RBL');
-define('_MD_PROTECTOR_FMT_REGISTER_MORATORIUM', 'Post it again %s minutes later(for Anti-SPAMMING, sorry).');
+define('_MD_PROTECTOR_BANDWIDTHLIMITED', 'Ez a webhely jelenleg nagyon leterhelt. Kérjük, próbáld újra később.');
+define('_MD_PROTECTOR_TURNJAVASCRIPTON', 'Kapcsold BE a JavaScriptet');
+define('_MD_PROTECTOR_DENYBYRBL', 'A Protector elutasítja a bejegyzésedet, mert az IP-címed szerepel az RBL (Real-time Blackhole List) listán.');
+define('_MD_PROTECTOR_FMT_REGISTER_MORATORIUM', 'Tedd közzé újra %s perccel később (SPAM-ellenes védelem miatt, elnézést kérünk).');
