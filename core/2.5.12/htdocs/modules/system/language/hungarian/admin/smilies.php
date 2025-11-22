@@ -2,32 +2,33 @@
 /**
  * @copyright       (c) 2000-2016 XOOPS Project (www.xoops.org)
  * @license         GNU GPL 2.0 or later (https://www.gnu.org/licenses/gpl-2.0.html)
- * _LANGCODE    en
- * _CHARSET     UTF-8
+ * _LANGCODE        hu
+ * _CHARSET         UTF-8
+ * Translator: Molnár Vilmos (XOOPS Translation Team)
  */
 //Nav
-define('_AM_SYSTEM_SMILIES_NAV_MANAGER', 'Smilies Manager');
-define('_AM_SYSTEM_SMILIES_NAV_LIST', 'Smilies list');
-define('_AM_SYSTEM_SMILIES_NAV_ADD', 'Add a new smilie');
-define('_AM_SYSTEM_SMILIES_NAV_EDIT', 'Edit smilie');
-define('_AM_SYSTEM_SMILIES_NAV_DELETE', 'Delete smilie');
+define('_AM_SYSTEM_SMILIES_NAV_MANAGER', 'Hangulatjel Kezelő');
+define('_AM_SYSTEM_SMILIES_NAV_LIST', 'Hangulatjelek listája');
+define('_AM_SYSTEM_SMILIES_NAV_ADD', 'Új hangulatjel hozzáadása');
+define('_AM_SYSTEM_SMILIES_NAV_EDIT', 'Hangulatjel szerkesztése');
+define('_AM_SYSTEM_SMILIES_NAV_DELETE', 'Hangulatjel törlése');
 // Tips
-define('_AM_SYSTEM_SMILIES_NAV_TIPS', '<ul><li>Add, update or delete smilies</li></ul>');
-define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1', '<ul><li>Authorized mime types: %s</li>');
-define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2', '<li>Max uploaded files size: %s ko</li></ul>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS', '<ul><li>Hangulatjelek hozzáadása, frissítése vagy törlése</li></ul>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1', '<ul><li>Engedélyezett mime típusok: %s</li>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2', '<li>Feltöltött fájlok maximális mérete: %s KB</li></ul>');
 //Infos
-define('_AM_SYSTEM_SMILIES_ACTION', 'Action');
-define('_AM_SYSTEM_SMILIES_ADD', 'Add a new smilie');
-define('_AM_SYSTEM_SMILIES_CODE', 'Code');
-define('_AM_SYSTEM_SMILIES_DELETE', 'Delete smilie');
-define('_AM_SYSTEM_SMILIES_DESCRIPTION', 'Description');
-define('_AM_SYSTEM_SMILIES_DISPLAY', 'Display in form');
-define('_AM_SYSTEM_SMILIES_EDIT', 'Edit smilie');
-define('_AM_SYSTEM_SMILIES_FILE', 'Smilie file');
-define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'Files exist in: %s');
-define('_AM_SYSTEM_SMILIES_OFF', 'Display in the form ');
-define('_AM_SYSTEM_SMILIES_ON', 'Does not display in the form');
-define('_AM_SYSTEM_SMILIES_SMILIE', 'Smilie');
-define('_AM_SYSTEM_SMILIES_SUREDEL', 'Are you sure you want to delete this smilie?');
-define('_AM_SYSTEM_SMILIES_UPLOADS', 'Upload');
+define('_AM_SYSTEM_SMILIES_ACTION', 'Művelet');
+define('_AM_SYSTEM_SMILIES_ADD', 'Új hangulatjel hozzáadása');
+define('_AM_SYSTEM_SMILIES_CODE', 'Kód');
+define('_AM_SYSTEM_SMILIES_DELETE', 'Hangulatjel törlése');
+define('_AM_SYSTEM_SMILIES_DESCRIPTION', 'Leírás');
+define('_AM_SYSTEM_SMILIES_DISPLAY', 'Megjelenítés az űrlapon');
+define('_AM_SYSTEM_SMILIES_EDIT', 'Hangulatjel szerkesztése');
+define('_AM_SYSTEM_SMILIES_FILE', 'Hangulatjel fájl');
+define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'A fájlok itt találhatók: %s');
+define('_AM_SYSTEM_SMILIES_OFF', 'Megjelenítés az űrlapon ');
+define('_AM_SYSTEM_SMILIES_ON', 'Ne jelenjen meg az űrlapon');
+define('_AM_SYSTEM_SMILIES_SMILIE', 'Hangulatjel');
+define('_AM_SYSTEM_SMILIES_SUREDEL', 'Biztosan törölni szeretnéd ezt a hangulatjelet?');
+define('_AM_SYSTEM_SMILIES_UPLOADS', 'Feltöltés');
 define('_AM_SYSTEM_SMILIES_SAVE', _AM_SYSTEM_DBUPDATED);
