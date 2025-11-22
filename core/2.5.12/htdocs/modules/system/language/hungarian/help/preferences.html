@@ -1,75 +1,70 @@
 <div id="help-template" class="outer">
 
-    <h1 class="head">Help: Preferences</h1>
-    <h4 class="odd">Description</h4>
+    <h1 class="head">Súgó: Beállítások</h1>
+    <h4 class="odd">Leírás</h4>
 
     <p class="even">
-        The preference panels are where you configure your site-wide preferences. It is worth taking the time to work through them as some settings can have a significant impact on the performance, security and ease of use of your site.
+        A beállítási panelek azok a helyek, ahol a teljes webhelyre vonatkozó preferenciákat konfigurálhatod. Érdemes időt szánni a végigdolgozásukra, mivel egyes beállítások jelentős hatással lehetnek a webhely teljesítményére, biztonságára és használhatóságára.
     </p>
-    <h4 class="odd">General Settings</h4>
+    <h4 class="odd">Általános beállítások</h4>
 
     <p class="even">
-        These are the most important and most frequently accessed preferences. You will set the Site name and the Slogan for your Website. You'll also select the default Theme and Admin GUI. And if you need to work on your Website, you can close it for all users. You can also set Module-wide Cache
-        times.
-    </p>
-
-    <h4 class="odd">Meta Tags and Footer</h4>
-
-    <p class="even">
-        Meta tags provide information about your information – they describe the nature of your website. Their main use is to help search engines and their robots to index your website correctly, i.e. to help the right people find it. The information you supply is included in the header of each web
-        page. It should represent the content of the site as a whole - the meta information is the same on every page, it currently cannot be customised for different modules or pages.<br><br>
-
-        Be aware that the major search engines use different strategies for indexing websites. They may place different weightings on meta tags or even ignore them completely. Careful use of meta information may help your website to gain better search engine rankings, and it is useful to seek
-        information on the indexing strategies of your dominant referrers (see your website logfile). This may help you to optimise your meta information or other aspects of your site design and content to improve your rankings. <br><br>
-
-        Try to be accurate and honest in providing meta information. Don’t try to ‘<em>manipulate</em>’ search engines to gain a better ranking – they may recognise this behaviour and your site may be downgraded or blacklisted from their index.
-
-        <br><br>The <strong>Meta Copyright</strong> and <strong>Footer</strong> fields both support two substitution tags to simplify maintenance.
-        <br>&nbsp;- <strong>{X_SITEURL}</strong> will be replaced by the full URL to your site's main page.
-        <br>&nbsp;- <strong>{X_YEAR}</strong> will be replaced by the current four digit year. It eliminates the need to update the upper copyright date each year.
+        Ezek a legfontosabb és leggyakrabban elérhető beállítások. Itt állíthatod be a webhely nevét és szlogenjét. Kiválaszthatod az alapértelmezett Témát és Adminisztrációs felületet (GUI). Ha pedig karbantartási munkálatokat kell végezned a webhelyen, lezárhatod azt az összes felhasználó számára. Itt állíthatod be a modulok gyorsítótárazási (Cache) idejét is.
     </p>
 
-    <h4 class="odd">Word Censoring Options</h4>
+    <h4 class="odd">Meta címkék és lábléc (Footer)</h4>
 
     <p class="even">
-        XOOPS can automatically censor undesirable words that may be posted by visitors to your site and replace them with a generic, alternative term of your choice. The censorship function does consume some system resources and may slow your site somewhat. It is disabled by default.<br><br>
+        A meta címkék információt szolgáltatnak a webhelyedről – leírják a webhelyed jellegét. Fő céljuk, hogy segítsék a keresőmotorokat és robotjaikat a webhely helyes indexelésében, azaz segítsék a megfelelő embereket abban, hogy megtalálják azt. Az általad megadott információ minden weboldal fejlécében szerepel. Ennek az oldal tartalmát egészében kell képviselnie – a meta információ minden oldalon azonos, jelenleg nem szabható testre különböző modulokhoz vagy oldalakhoz.<br><br>
 
-        To implement censorship on your site select the ‘<em>enable</em>’ radio button. You need to enter a list of unwanted words in the ‘<em>words to censor</em>’ box, separating them with the pipe character. This function is case-insensitive. Enter a suitable replacement term in the ‘<em>replace
-            bad words with</em>’ box. The default is #OOPS#.
+        Ne feledd, hogy a főbb keresőmotorok különböző stratégiákat alkalmaznak a webhelyek indexelésére. Különböző súlyt tulajdoníthatnak a meta címkéknek, vagy akár teljesen figyelmen kívül hagyhatják azokat. A meta információk körültekintő használata segíthet a webhelynek jobb keresőmotor-helyezéseket elérni, és hasznos lehet információt keresni a domináns hivatkozók indexelési stratégiáiról (lásd a webhely naplófájlját). Ez segíthet optimalizálni a meta információkat vagy a webhely tervezésének és tartalmának egyéb szempontjait a rangsor javítása érdekében. <br><br>
+
+        Próbálj pontos és őszinte lenni a meta információk megadásakor. Ne próbáld '<em>manipulálni</em>' a keresőmotorokat jobb helyezés elérése érdekében – felismerhetik ezt a viselkedést, és a webhelyedet leminősíthetik vagy feketelistára tehetik az indexükből.
+
+        <br><br>A <strong>Meta Copyright</strong> és a <strong>Lábléc (Footer)</strong> mezők mindkettő támogat két helyettesítő címkét a karbantartás egyszerűsítése érdekében.
+        <br>&nbsp;- A <strong>{X_SITEURL}</strong> helyébe a webhely főoldalának teljes URL-je kerül, záró perjellel.
+        <br>&nbsp;- A <strong>{X_YEAR}</strong> helyébe az aktuális négyjegyű évszám kerül. Ez feleslegessé teszi a felső szerzői jogi dátum minden évi frissítését.
+    </p>
+
+    <h4 class="odd">Szó Cenzúra Opciók</h4>
+
+    <p class="even">
+        A XOOPS automatikusan cenzúrázhatja a nem kívánt szavakat, amelyeket a webhely látogatói közzétehetnek, és lecserélheti azokat egy általad választott, általános, alternatív kifejezésre. A cenzúra funkció fogyaszt némi rendszererőforrást, és kissé lassíthatja a webhelyet. Alapértelmezés szerint le van tiltva.<br><br>
+
+        A cenzúra webhelyeden történő bevezetéséhez válaszd az ‘<em>engedélyezés</em>’ rádiógombot. A ‘<em>cenzúrázandó szavak</em>’ mezőbe be kell írnod a nem kívánt szavak listáját, elválasztva azokat a függőleges vonal karakterrel (pipe character). Ez a funkció nem érzékeny a kis- és nagybetűkre. Írj be egy megfelelő helyettesítő kifejezést a ‘<em>rossz szavak cseréje</em>’ mezőbe. Az alapértelmezett érték: #OOPS#.
 
     </p>
 
-    <h4 class="odd">Search Options</h4>
+    <h4 class="odd">Keresési Opciók</h4>
 
     <p class="even">
-        The search facility is one of the most important tools for locating information in a portal website. The XOOPS search categorises results by module – records are identified as news items, downloads, links or other types as per the modules you have installed. <br><br>
+        A keresési funkció az egyik legfontosabb eszköz az információk megtalálásához egy portál webhelyen. A XOOPS keresője modulok szerint kategorizálja az eredményeket – a rekordok hírként, letöltésként, linkként vagy más típusúként azonosíthatók, az általad telepített modulok szerint. <br><br>
 
-        Global searches of all resources on your site are enabled by default. If you disable global searches this facility will no longer be available and the search block will become non-functional.
-        The default minimum keyword length for searches is five characters. Any terms that are shorter will be ignored. This is useful for controlling the precision of searches, though not much use for terms like “site map”. Short keywords tend to be more common, so they tend to return a greater
-        number of records, many of which may be irrelevant. Longer keywords tend to retrieve fewer records but with a higher degree of precision.<br><br>
+        A webhely összes erőforrására kiterjedő globális keresés alapértelmezés szerint engedélyezett. Ha letiltod a globális keresést, ez a funkció többé nem lesz elérhető, és a kereső blokk működésképtelenné válik.
+        A keresések minimális kulcsszóhossza alapértelmezés szerint öt karakter. Minden rövidebb kifejezést figyelmen kívül hagy. Ez hasznos a keresések pontosságának szabályozására, bár kevésbé hasznos az olyan kifejezéseknél, mint a „webhely térkép”. A rövid kulcsszavak általában gyakoribbak, így nagyobb számú rekordot adnak vissza, amelyek közül sok irreleváns lehet. A hosszabb kulcsszavak általában kevesebb rekordot eredményeznek, de nagyobb pontossággal.<br><br>
 
-        Searching is relatively expensive in computational terms and so excluding short terms will reduce the load on the server. However, bear in mind that sometimes it is useful to be able to search for a short term.
+        A keresés számítási szempontból viszonylag költséges, így a rövid kifejezések kizárása csökkenti a szerver terhelését. Azonban ne feledd, hogy néha hasznos lehet egy rövid kifejezésre is keresni.
 
     </p>
 
-    <h4 class="odd">Email Setup</h4>
+    <h4 class="odd">E-mail beállítások</h4>
 
     <p class="even">
-        This section of the control panel is used to configure your email for the system. It is recommended that you leave the Email Delivery Method on the default setting “PHP (mail)”. You do not need to fill in the Sendmail or SMTP fields unless you use an alternative email delivery option.
+        A vezérlőpult ezen része a rendszer e-mail beállításainak konfigurálására szolgál. Javasolt, hogy az E-mail kézbesítési módszert hagyd az alapértelmezett beállításon: „PHP (mail)”. A Sendmail vagy SMTP mezőket csak akkor kell kitöltened, ha alternatív e-mail kézbesítési opciót használsz.
     </p>
 
-    <h4 class="odd">Authentication Options</h4>
+    <h4 class="odd">Hitelesítési Opciók (Authentication Options)</h4>
 
     <p class="even">
-        Just leave it at Xoops Database and you can ignore all the other options in there.<br><br>
+        Hagyd egyszerűen Xoops Adatbázison, és figyelmen kívül hagyhatod az összes többi opciót.<br><br>
 
-        LDAP or Microsoft Active directory servers have been added for authentication as an alternate to the normal Xoops users. The reason is that in many company you already have a user database in ADS or LDAP, and they can use that to logon to XOOPS and don´t have to register yet another account.
+        Az LDAP vagy a Microsoft Active Directory szerverek hozzá lettek adva a hitelesítéshez, a normál XOOPS felhasználók alternatívájaként. Ennek az az oka, hogy sok vállalatnál már rendelkezésre áll egy felhasználói adatbázis az ADS-ben vagy az LDAP-ban, és ezt használhatják a XOOPS-ba való bejelentkezéshez, így nem kell újabb fiókot regisztrálniuk.
     </p>
 
-    <h4 class="odd">System Module Settings</h4>
+    <h4 class="odd">Rendszer Modul Beállítások</h4>
 
     <p class="even">
-        Here you can activate/deactivate each of the System sections, as well as specify system-wide defaults, e.g. for number of displayed avatars or images per page. You can also select a default editor for blocks, comments, and for all modules.
+        Itt aktiválhatod/deaktiválhatod az egyes Rendszer szekciókat, valamint megadhatsz rendszerszintű alapértelmezéseket, pl. az oldalon megjelenített avatárok vagy képek számát. Kiválaszthatsz egy alapértelmezett szerkesztőt is a blokkokhoz, a hozzászólásokhoz és minden modulhoz.
     </p>
 
 </div>
