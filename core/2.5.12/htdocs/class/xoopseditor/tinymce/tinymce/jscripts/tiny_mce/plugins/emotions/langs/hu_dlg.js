@@ -1,0 +1,21 @@
+tinyMCE.addI18n('hu.emotions_dlg',{
+    cry:"Sírás",
+    cool:"Menő",
+    desc:"Hangulatjelek",
+    title:"Hangulatjel Beillesztése",
+    usage:"Használd a bal és jobb nyilakat a navigáláshoz.",
+    yell:"Kiabálás",
+    wink:"Kacsintás",
+    undecided:"Bizonytalan",
+    "tongue_out":"Nyelvnyújtás",
+    surprised:"Meglepett",
+    smile:"Mosoly",
+    sealed:"Lezárva",
+    "money_mouth":"Pénzes Száj",
+    laughing:"Nevetés",
+    kiss:"Puszi",
+    innocent:"Ártatlan",
+    frown:"Ráncolt Homlok",
+    "foot_in_mouth":"Botlás/Baklövés",
+    embarassed:"Zavarban"
+});
