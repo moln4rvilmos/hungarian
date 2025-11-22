@@ -2,89 +2,90 @@
 /**
  * @copyright       (c) 2000-2016 XOOPS Project (www.xoops.org)
  * @license         GNU GPL 2.0 or later (https://www.gnu.org/licenses/gpl-2.0.html)
- * _LANGCODE    en
- * _CHARSET     UTF-8
+ * _LANGCODE        hu
+ * _CHARSET         UTF-8
+ * Translator: Molnár Vilmos (XOOPS Translation Team)
  */
 // Navigation
-define('_AM_SYSTEM_BLOCKS_ADMIN', 'Blocks Administration');
-define('_AM_SYSTEM_BLOCKS_MANAGMENT', 'Manage');
-define('_AM_SYSTEM_BLOCKS_ADDBLOCK', 'Add a new block');
-define('_AM_SYSTEM_BLOCKS_EDITBLOCK', 'Edit a block');
-define('_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'Clone a block');
+define('_AM_SYSTEM_BLOCKS_ADMIN', 'Blokkok Adminisztrációja');
+define('_AM_SYSTEM_BLOCKS_MANAGMENT', 'Kezelés');
+define('_AM_SYSTEM_BLOCKS_ADDBLOCK', 'Új blokk hozzáadása');
+define('_AM_SYSTEM_BLOCKS_EDITBLOCK', 'Blokk szerkesztése');
+define('_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'Blokk másolása');
 // Forms
-define('_AM_SYSTEM_BLOCKS_CUSTOM', 'Custom Block');
-define('_AM_SYSTEM_BLOCKS_TYPES', 'All types');
-define('_AM_SYSTEM_BLOCKS_GENERATOR', 'Modules');
-define('_AM_SYSTEM_BLOCKS_GROUP', 'Groups');
-define('_AM_SYSTEM_BLOCKS_SVISIBLEIN', 'Page');
-define('_AM_SYSTEM_BLOCKS_DISPLAY', 'Display block ');
-define('_AM_SYSTEM_BLOCKS_HIDE', 'Hide block ');
-define('_AM_SYSTEM_BLOCKS_CLONE', 'Clone');
-define('_AM_SYSTEM_BLOCKS_SIDELEFT', 'Left');
-define('_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'Top Left');
-define('_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'Top Center');
-define('_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'Top Right');
-define('_AM_SYSTEM_BLOCKS_SIDERIGHT', 'Right');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'Bottom Left');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'Bottom Center');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'Bottom Right');
+define('_AM_SYSTEM_BLOCKS_CUSTOM', 'Egyedi Blokk');
+define('_AM_SYSTEM_BLOCKS_TYPES', 'Minden típus');
+define('_AM_SYSTEM_BLOCKS_GENERATOR', 'Modulok');
+define('_AM_SYSTEM_BLOCKS_GROUP', 'Csoportok');
+define('_AM_SYSTEM_BLOCKS_SVISIBLEIN', 'Oldal');
+define('_AM_SYSTEM_BLOCKS_DISPLAY', 'Blokk megjelenítése ');
+define('_AM_SYSTEM_BLOCKS_HIDE', 'Blokk elrejtése ');
+define('_AM_SYSTEM_BLOCKS_CLONE', 'Másolás');
+define('_AM_SYSTEM_BLOCKS_SIDELEFT', 'Bal oldal');
+define('_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'Felső Bal');
+define('_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'Felső Közép');
+define('_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'Felső Jobb');
+define('_AM_SYSTEM_BLOCKS_SIDERIGHT', 'Jobb oldal');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'Alsó Bal');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'Alsó Közép');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'Alsó Jobb');
 
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERLEFT', 'Footer Left');
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERCENTER', 'Footer Center');
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERRIGHT', 'Footer Right');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERLEFT', 'Lábléc Bal');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERCENTER', 'Lábléc Közép');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERRIGHT', 'Lábléc Jobb');
 
-define('_AM_SYSTEM_BLOCKS_ADD', 'Add Block');
-define('_AM_SYSTEM_BLOCKS_MANAGE', 'Manage Block');
-define('_AM_SYSTEM_BLOCKS_NAME', 'Name');
-define('_AM_SYSTEM_BLOCKS_TYPE', 'Block Type');
-define('_AM_SYSTEM_BLOCKS_SBLEFT', 'Side Block - Left');
-define('_AM_SYSTEM_BLOCKS_SBRIGHT', 'Side Block - Right');
-define('_AM_SYSTEM_BLOCKS_CBLEFT', 'Center Block - Left');
-define('_AM_SYSTEM_BLOCKS_CBRIGHT', 'Center Block - Right');
-define('_AM_SYSTEM_BLOCKS_CBCENTER', 'Center Block - Center');
-define('_AM_SYSTEM_BLOCKS_CBBOTTOMLEFT', 'Center Block - Bottom left');
-define('_AM_SYSTEM_BLOCKS_CBBOTTOMRIGHT', 'Center Block - Bottom right');
+define('_AM_SYSTEM_BLOCKS_ADD', 'Blokk Hozzáadása');
+define('_AM_SYSTEM_BLOCKS_MANAGE', 'Blokk Kezelése');
+define('_AM_SYSTEM_BLOCKS_NAME', 'Név');
+define('_AM_SYSTEM_BLOCKS_TYPE', 'Blokk Típusa');
+define('_AM_SYSTEM_BLOCKS_SBLEFT', 'Oldal Blokk - Bal');
+define('_AM_SYSTEM_BLOCKS_SBRIGHT', 'Oldal Blokk - Jobb');
+define('_AM_SYSTEM_BLOCKS_CBLEFT', 'Középső Blokk - Bal');
+define('_AM_SYSTEM_BLOCKS_CBRIGHT', 'Középső Blokk - Jobb');
+define('_AM_SYSTEM_BLOCKS_CBCENTER', 'Középső Blokk - Közép');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOMLEFT', 'Középső Blokk - Alsó Bal');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOMRIGHT', 'Középső Blokk - Alsó Jobb');
 
-define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT', 'Footer Block - Left');
-define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER', 'Footer Block - Center');
-define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT', 'Footer Block - Right');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT', 'Lábléc Blokk - Bal');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER', 'Lábléc Blokk - Közép');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT', 'Lábléc Blokk - Jobb');
 
-define('_AM_SYSTEM_BLOCKS_CBBOTTOM', 'Center Block - Bottom');
-define('_AM_SYSTEM_BLOCKS_WEIGHT', 'Weight');
-define('_AM_SYSTEM_BLOCKS_VISIBLE', 'Visible');
-define('_AM_SYSTEM_BLOCKS_VISIBLEIN', 'Visible in');
-define('_AM_SYSTEM_BLOCKS_TOPPAGE', 'Top Page');
-define('_AM_SYSTEM_BLOCKS_ALLPAGES', 'All Pages');
-define('_AM_SYSTEM_BLOCKS_UNASSIGNED', 'Unassigned');
-define('_AM_SYSTEM_BLOCKS_TITLE', 'Title');
-define('_AM_SYSTEM_BLOCKS_CONTENT', 'Content');
-define('_AM_SYSTEM_BLOCKS_USEFULTAGS', 'Useful Tags:');
-define('_AM_SYSTEM_BLOCKS_BLOCKTAG', '%s will print %s');
-define('_AM_SYSTEM_BLOCKS_CTYPE', 'Content Type');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOM', 'Középső Blokk - Alsó');
+define('_AM_SYSTEM_BLOCKS_WEIGHT', 'Súly/Sorrend');
+define('_AM_SYSTEM_BLOCKS_VISIBLE', 'Látható');
+define('_AM_SYSTEM_BLOCKS_VISIBLEIN', 'Látható a(z)');
+define('_AM_SYSTEM_BLOCKS_TOPPAGE', 'Főoldal');
+define('_AM_SYSTEM_BLOCKS_ALLPAGES', 'Minden Oldal');
+define('_AM_SYSTEM_BLOCKS_UNASSIGNED', 'Nincs Hozzárendelve');
+define('_AM_SYSTEM_BLOCKS_TITLE', 'Cím');
+define('_AM_SYSTEM_BLOCKS_CONTENT', 'Tartalom');
+define('_AM_SYSTEM_BLOCKS_USEFULTAGS', 'Hasznos Címkék (Tags):');
+define('_AM_SYSTEM_BLOCKS_BLOCKTAG', 'A(z) %s a(z) %s-t fogja kiírni');
+define('_AM_SYSTEM_BLOCKS_CTYPE', 'Tartalom Típusa');
 define('_AM_SYSTEM_BLOCKS_HTML', 'HTML');
-define('_AM_SYSTEM_BLOCKS_PHP', 'PHP Script');
-define('_AM_SYSTEM_BLOCKS_AFWSMILE', 'Auto Format (smilies enabled)');
-define('_AM_SYSTEM_BLOCKS_AFNOSMILE', 'Auto Format (smilies disabled)');
-define('_AM_SYSTEM_BLOCKS_BCACHETIME', 'Cache lifetime');
-define('_AM_SYSTEM_BLOCKS_CUSTOMHTML', 'Custom Block (HTML)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMPHP', 'Custom Block (PHP)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMSMILE', 'Custom Block (Auto Format + smilies)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE', 'Custom Block (Auto Format)');
-define('_AM_SYSTEM_BLOCKS_EDITTPL', 'Edit Template');
-define('_AM_SYSTEM_BLOCKS_OPTIONS', 'Options');
-define('_AM_SYSTEM_BLOCKS_DRAG', 'Drag or sort the block');
+define('_AM_SYSTEM_BLOCKS_PHP', 'PHP Szkript');
+define('_AM_SYSTEM_BLOCKS_AFWSMILE', 'Automatikus Formázás (hangulatjelek engedélyezve)');
+define('_AM_SYSTEM_BLOCKS_AFNOSMILE', 'Automatikus Formázás (hangulatjelek letiltva)');
+define('_AM_SYSTEM_BLOCKS_BCACHETIME', 'Gyorsítótár élettartama');
+define('_AM_SYSTEM_BLOCKS_CUSTOMHTML', 'Egyedi Blokk (HTML)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMPHP', 'Egyedi Blokk (PHP)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMSMILE', 'Egyedi Blokk (Automatikus Formázás + hangulatjelek)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE', 'Egyedi Blokk (Automatikus Formázás)');
+define('_AM_SYSTEM_BLOCKS_EDITTPL', 'Sablon Szerkesztése');
+define('_AM_SYSTEM_BLOCKS_OPTIONS', 'Opciók');
+define('_AM_SYSTEM_BLOCKS_DRAG', 'Blokk áthelyezése vagy sorba rendezése');
 // Messages
 define('_AM_SYSTEM_BLOCKS_DBUPDATED', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_BLOCKS_RUSUREDEL', 'Are you sure to delete this block ? <div class="bold">%s</div>');
-define('_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'System blocks cannot be deleted!');
-define('_AM_SYSTEM_BLOCKS_MODULECANT', 'This block cannot be deleted directly! If you wish to disable this block, deactivate the module.');
+define('_AM_SYSTEM_BLOCKS_RUSUREDEL', 'Biztosan törölni szeretnéd ezt a blokkot? <div class="bold">%s</div>');
+define('_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'A Rendszer blokkokat nem lehet törölni!');
+define('_AM_SYSTEM_BLOCKS_MODULECANT', 'Ezt a blokkot nem lehet közvetlenül törölni! Ha le szeretnéd tiltani, inaktiváld a modult.');
 // Tips
 define('_AM_SYSTEM_BLOCKS_TIPS', '<ul>
-<li>You can easily change side or order position with the drag\'n drop, click on <img class="tooltip" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DRAG . '" title="' . _AM_SYSTEM_BLOCKS_DRAG . '" /> this image and set your site just the way you want it</li>
-<li>Add a new custom block</li>
-<li>Set block online or offline by clicking on <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DISPLAY . '" title="' . _AM_SYSTEM_BLOCKS_DISPLAY . '"/> or <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_HIDE . '" title="' . _AM_SYSTEM_BLOCKS_HIDE . '" /></li>
+<li>A pozíciót és a sorrendet könnyedén megváltoztathatod a húzd-és-ejtsd módszerrel, kattints erre a képre <img class="tooltip" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DRAG . '" title="' . _AM_SYSTEM_BLOCKS_DRAG . '" /> és állítsd be az oldalad úgy, ahogyan szeretnéd.</li>
+<li>Adj hozzá egy új egyedi blokkot.</li>
+<li>Állítsd online vagy offline állapotba a blokkot, ha rákattintasz <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DISPLAY . '" title="' . _AM_SYSTEM_BLOCKS_DISPLAY . '"/> vagy <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_HIDE . '" title="' . _AM_SYSTEM_BLOCKS_HIDE . '" /></li>
 </ul>');
 
-define('_AM_SYSTEM_BLOCKS_FOOTER_LEFT', 'Footer Left');
-define('_AM_SYSTEM_BLOCKS_FOOTER_CENTER', 'Footer Center');
-define('_AM_SYSTEM_BLOCKS_FOOTER_RIGHT', 'Footer Right');
+define('_AM_SYSTEM_BLOCKS_FOOTER_LEFT', 'Lábléc Bal');
+define('_AM_SYSTEM_BLOCKS_FOOTER_CENTER', 'Lábléc Közép');
+define('_AM_SYSTEM_BLOCKS_FOOTER_RIGHT', 'Lábléc Jobb');
